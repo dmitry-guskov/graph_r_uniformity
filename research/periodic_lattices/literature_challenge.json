@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-06",
+  "question": "Does the Li >= 5 periodic cluster theorem or D >= 3 minimum multiplicity follow from an already published Cartesian-product local-minimum-degree or diagonal-distance theorem?",
+  "assessment": "No applicable stronger Cartesian-product theorem was located in this bounded primary-source challenge. This is not a proof of novelty. A directly relevant 2019 abstract remains unresolved and must be checked before any priority claim.",
+  "records": [
+    {
+      "authors": "Sowrabh Sudevan, Daniel Azses, Emanuele G. Dalla Torre, Eran Sela, Sourin Das",
+      "title": "Multipartite entanglement and quantum error identification in D-dimensional cluster states",
+      "date": "2023-08-25",
+      "url": "https://link.aps.org/accepted/10.1103/PhysRevA.108.022426",
+      "alternate_url": "https://arxiv.org/abs/2303.15508",
+      "inspected": "Section II.B; Appendix A; Appendix C",
+      "source_claim": "General periodic result proved at linear size at least eight; threshold five conjectured from low-dimensional evidence.",
+      "comparison": "The supplied proof candidate lowers the sufficient side-length threshold to five in every dimension and allows unequal lengths.",
+      "limits": "A later proof elsewhere remains possible; the computational and mathematical claims in the supplied proof are independently derived."
+    },
+    {
+      "authors": "Sowrabh Sudevan, Sourin Das, Thamadathil Aswanth, Nupur Patanker, Navin Kashyap",
+      "title": "Codeword Stabilized Codes from m-Uniform Graph States",
+      "date": "2025-10-09 (arXiv v4)",
+      "url": "https://arxiv.org/pdf/2405.06142v4",
+      "doi": "https://doi.org/10.1109/JSAIT.2025.3602744",
+      "inspected": "v4 Proposition 2 (PDF page 4), Corollary 1 (PDF page 5)",
+      "source_claim": "The relevant periodic D-dimensional lattice statements retain side lengths at least eight.",
+      "limits": "Do not refer to v3 Proposition 1 as the latest numbering. This supports continuing relevance but does not establish novelty."
+    },
+    {
+      "authors": "Emma Lennen, Wade Bloomquist, Jose Zavala, Gulnoza Bobokalonova, Rebecca Embar",
+      "title": "Combinatorial Properties of Diagonal Distance",
+      "date": "2019-01-16 talk; abstract received 2018-09-19",
+      "url": "https://jointmathematicsmeetings.org/amsmtgs/2217_abstracts/1145-94-1163.pdf",
+      "program_url": "https://jointmathematicsmeetings.org/meetings/national/jmm2019/2217_program_wednesday.html",
+      "inspected": "Complete one-page abstract; official program",
+      "source_claim": "Announces constructions of arbitrarily high diagonal distance, local-complementation invariance, and a study of Cartesian graph products and diagonal distance.",
+      "limits": "Abstract gives no Cartesian-product theorem, hypotheses, proof, or cycle-product formula. Exact-title and author-pair searches located only abstract/program copies, not full research text. This is an unresolved direct novelty risk, not evidence that our theorem has already been proved. No authors were contacted."
+    },
+    {
+      "authors": "Wade Bloomquist",
+      "title": "Research (author website)",
+      "date": "accessed 2026-09-06",
+      "url": "https://www.wadebloomquist.com/research",
+      "inspected": "Research papers and undergraduate supervision entries",
+      "source_claim": "The inspected publication list contains no diagonal-distance paper or matching 2018/2019 project write-up.",
+      "limits": "An incomplete or stale author page cannot exclude unpublished, unlisted, or later results."
+    },
+    {
+      "authors": "German Luna, Samuel Reid, Bianca De Sanctis, Vlad Gheorghiu",
+      "title": "A Combinatorial Approach to Quantum Error Correcting Codes",
+      "date": "2013-04-24 arXiv; 2014 publication",
+      "url": "https://arxiv.org/pdf/1304.6743",
+      "doi": "https://doi.org/10.1142/S1793830914500542",
+      "inspected": "Section 2 Definition 2; Section 3 Theorem 1 and equation 5; Section 6 C5 example; text search Cartesian",
+      "source_claim": "Diagonal distance minimizes union (symplectic) support in the binary kernel of [I|A]; joint X/Z at one vertex counts once.",
+      "comparison": "For the nonisolated simple tori used here this agrees with min |S union Odd(S)|, so the JMM lead is genuinely about the relevant metric, not a separate count of X and Z operations.",
+      "limits": "No Cartesian-product theorem occurs in this inspected preprint. It is the antecedent definition cited by the JMM abstract, not the missing 2019 result."
+    },
+    {
+      "authors": "Jerome Javelle, Mehdi Mhalla, Simon Perdrix",
+      "title": "On the Minimum Degree up to Local Complementation: Bounds and Complexity",
+      "date": "2012",
+      "url": "https://arxiv.org/pdf/1204.4564",
+      "inspected": "Sections 1-3; Property 1; text search product",
+      "source_claim": "Local minimum degree is min |S union Odd(S)| minus one. Main family lower bound concerns Paley graphs; a cited earlier result concerns hypercubes.",
+      "limits": "No applicable Cartesian-product lower bound was located. Its cited hypercube antecedent was subsequently inspected in the author-uploaded full text and is recorded separately below."
+    },
+    {
+      "authors": "David Cattaneo, Simon Perdrix",
+      "title": "Minimum Degree up to Local Complementation: Bounds, Parameterized Complexity, and Exact Algorithms",
+      "date": "2015; arXiv v2 2016",
+      "url": "https://arxiv.org/pdf/1503.04702",
+      "inspected": "Property 1 and main result statements earlier in research lane; text search product in final challenge",
+      "source_claim": "Provides the local-minimum-degree support characterization and general bounds/algorithms.",
+      "limits": "No Cartesian-product theorem was located in this inspected paper."
+    },
+    {
+      "authors": "Upendra S. Kapshikar",
+      "title": "The Diagonal distance of Codeword Stabilized Codes",
+      "date": "2021-08-03 arXiv v2",
+      "url": "https://arxiv.org/pdf/2107.11286",
+      "inspected": "Introduction Theorem A; Section II diagonal-distance definition; references; text search Cartesian",
+      "source_claim": "For a graph without four-cycles, diagonal distance is either minimum degree or minimum degree plus one.",
+      "comparison": "This does not apply directly to Cartesian products of two or more cycles, which contain four-cycles.",
+      "limits": "A claim that absence of four-cycles always gives degree plus one would overstate this theorem. No Cartesian-product result was located."
+    },
+    {
+      "authors": "Nathan Claudet",
+      "title": "Local Equivalences of Graph States (PhD thesis)",
+      "date": "2025-11-17",
+      "url": "https://docnum.univ-lorraine.fr/public/DDOC_T_2025_0152_CLAUDET.pdf",
+      "inspected": "Section 3.2 local sets and Proposition 33; bibliography; text searches Cartesian and Sudevan",
+      "source_claim": "Restates the local-minimum-degree/minimal-local-set relationship and develops local equivalence invariants.",
+      "limits": "No Cartesian or Sudevan match in indexed text; this is a bounded negative search, not a full thesis theorem audit."
+    },
+    {
+      "authors": "Peter Hoyer, Mehdi Mhalla, Simon Perdrix",
+      "title": "Resources Required for Preparing Graph States",
+      "date": "2006",
+      "url": "https://doi.org/10.1007/11940128_64",
+      "inspected_full_text_url": "https://www.researchgate.net/publication/221543938_Resources_Required_for_Preparing_Graph_States",
+      "provenance": "ResearchGate explicitly labels the displayed full text as author content uploaded by Mehdi Mhalla. HAL and Oxford PDF retrieval failed, but the author-uploaded article text was inspectable.",
+      "inspected": "Appendix B, Lemma 17 and its proof, Proposition 18, Theorem 19; text search Cartesian",
+      "source_claim": "Lemma 17 gives local minimum degree at least n/2 for the n-dimensional binary hypercube. Theorem 19 concerns generalized binary hypercubes joined at fixed Hamming distance.",
+      "comparison": "The Lemma 17 cancellation-counting mechanism uses at most two common neighbors. On degree-2D tori that elementary argument yields only a lower bound D, not the desired 2D. No general Cartesian-product theorem in the inspected text makes the new threshold-five proof immediate.",
+      "limits": "The statement is a lower bound for binary hypercubes, not an exact formula for products of arbitrary cycles. No claim is made that this exhausts all subsequent product literature."
+    }
+  ],
+  "search_families": [
+    "local minimum degree Cartesian product; minimum degree under local complementation product; local minimum degree torus",
+    "diagonal distance Cartesian; diagonal distance Cartesian product graph; diagonal distance cluster five",
+    "exact title Combinatorial Properties of Diagonal Distance; title excluding official JMM domain",
+    "Emma Lennen diagonal distance; Wade Bloomquist diagonal distance; Embar diagonal distance; author research pages",
+    "Luna Reid De Sanctis Gheorghiu diagonal distance; citation-chain through Kapshikar and local-minimum-degree literature"
+  ],
+  "next_priority_check": "Obtain the Cartesian-product portion of the 2019 JMM project (unpublished notes, poster, or author clarification) and compare hypotheses and conclusions. Any author communication requires user authorization."
+}

@@ -1,0 +1,9 @@
+{
+  "original_package_file_sha256": {
+    "APPLICATION.md": "1a0df0084269d28e73b8909427fbe5288a514946adc2f166bd2cd2c3005f4038",
+    "sha256.json": "e66346abe8c3e5abff628733b6c1ac76332a9fee73da5f10ec3391f79901a05d",
+    "verify_code.py": "5b256781fbe7dd4eab00ca7a2b05d6199af1614c0d0b021ba0e08a78b33e1ea5",
+    "verification.json": "3dfa7858bf6a6c4ca4e93fdaf899e18bb416730d2e1eefa8cf50fcd8e2ad8e71"
+  },
+  "integration": "Script paths made relative to their own files; original numeric results preserved until explicit rerun. Archived v1 is reproduction evidence, not the supported public API."
+}

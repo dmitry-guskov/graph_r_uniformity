@@ -1,0 +1,211 @@
+{
+  "command": "python3 research/periodic_lattices/verify_records.py",
+  "status": "passed",
+  "independently_checked_cpp_witnesses": 26,
+  "projection_lengths": [
+    5,
+    30
+  ],
+  "projection_cardinalities": [
+    1,
+    4
+  ],
+  "projection_cases": 206310,
+  "no_gap_projection_counts": {
+    "C5_occupied3": 5,
+    "C6_occupied3": 2
+  },
+  "C4_sharpness_witnesses": [
+    {
+      "side_lengths": [
+        4
+      ],
+      "generator_subset_size": 2,
+      "odd_neighborhood_size": 0,
+      "weight": 2,
+      "witness_vertex_indices": [
+        1,
+        3
+      ]
+    },
+    {
+      "side_lengths": [
+        4,
+        4
+      ],
+      "generator_subset_size": 4,
+      "odd_neighborhood_size": 0,
+      "weight": 4,
+      "witness_vertex_indices": [
+        1,
+        3,
+        4,
+        12
+      ]
+    },
+    {
+      "side_lengths": [
+        4,
+        4,
+        4
+      ],
+      "generator_subset_size": 6,
+      "odd_neighborhood_size": 0,
+      "weight": 6,
+      "witness_vertex_indices": [
+        1,
+        3,
+        4,
+        12,
+        16,
+        48
+      ]
+    },
+    {
+      "side_lengths": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "generator_subset_size": 8,
+      "odd_neighborhood_size": 0,
+      "weight": 8,
+      "witness_vertex_indices": [
+        1,
+        3,
+        4,
+        12,
+        16,
+        48,
+        64,
+        192
+      ]
+    },
+    {
+      "side_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "generator_subset_size": 10,
+      "odd_neighborhood_size": 0,
+      "weight": 10,
+      "witness_vertex_indices": [
+        1,
+        3,
+        4,
+        12,
+        16,
+        48,
+        64,
+        192,
+        256,
+        768
+      ]
+    },
+    {
+      "side_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "generator_subset_size": 12,
+      "odd_neighborhood_size": 0,
+      "weight": 12,
+      "witness_vertex_indices": [
+        1,
+        3,
+        4,
+        12,
+        16,
+        48,
+        64,
+        192,
+        256,
+        768,
+        1024,
+        3072
+      ]
+    }
+  ],
+  "C5_squared_nonsingleton_minimum_witnesses": [
+    [
+      0,
+      9,
+      13,
+      17,
+      21
+    ],
+    [
+      1,
+      5,
+      14,
+      18,
+      22
+    ],
+    [
+      2,
+      6,
+      10,
+      19,
+      23
+    ],
+    [
+      3,
+      7,
+      11,
+      15,
+      24
+    ],
+    [
+      4,
+      8,
+      12,
+      16,
+      20
+    ],
+    [
+      0,
+      6,
+      12,
+      18,
+      24
+    ],
+    [
+      4,
+      5,
+      11,
+      17,
+      23
+    ],
+    [
+      3,
+      9,
+      10,
+      16,
+      22
+    ],
+    [
+      2,
+      8,
+      14,
+      15,
+      21
+    ],
+    [
+      1,
+      7,
+      13,
+      19,
+      20
+    ]
+  ],
+  "verification_seconds": 0.6899540419690311,
+  "limits": "This verifies recorded witnesses and finite combinatorial ingredients, not every enumerated C++ subset independently and not the infinite theorem."
+}

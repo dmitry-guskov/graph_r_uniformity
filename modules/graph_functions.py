@@ -1,5 +1,76 @@
 import numpy as np
 import networkx as nx
+from itertools import combinations
+
+
+def _adjacency(adj_mat):
+    """Validate a simple undirected graph, without modifying the caller's data."""
+    a = np.asarray(adj_mat)
+    if a.ndim != 2 or a.shape[0] != a.shape[1]:
+        raise ValueError("Adjacency matrix must be square.")
+    if not np.isin(a, [0, 1]).all() or np.any(np.diag(a)) or not np.array_equal(a, a.T):
+        raise ValueError("Expected a symmetric binary adjacency matrix with zero diagonal.")
+    return a.astype(np.uint8, copy=True)
+
+
+def binary_rank(matrix):
+    """Matrix rank over GF(2), not floating-point or real-valued rank."""
+    a = np.asarray(matrix)
+    if a.ndim != 2 or not np.isin(a, [0, 1]).all():
+        raise ValueError("Expected a binary matrix.")
+    a = a.astype(np.uint8, copy=True)
+    rank = 0
+    for col in range(a.shape[1]):
+        pivots = np.flatnonzero(a[rank:, col])
+        if not len(pivots):
+            continue
+        pivot = rank + pivots[0]
+        a[[rank, pivot]] = a[[pivot, rank]]
+        for row in range(rank + 1, len(a)):
+            if a[row, col]:
+                a[row] ^= a[rank]
+        rank += 1
+        if rank == len(a):
+            break
+    return rank
+
+
+def cut_rank(adj_mat, retained):
+    """Log2 Schmidt rank of the graph state across retained and its complement."""
+    a = _adjacency(adj_mat)
+    retained = list(retained)
+    if (any(not isinstance(i, (int, np.integer)) or not 0 <= i < len(a) for i in retained)
+            or len(set(retained)) != len(retained)):
+        raise ValueError("Retained vertices must be distinct valid integer indices.")
+    complement = [i for i in range(len(a)) if i not in retained]
+    return binary_rank(a[np.ix_(retained, complement)])
+
+
+def is_maximally_mixed(adj_mat, retained):
+    """Exact graph-state marginal test; unlike peeling, failure is conclusive."""
+    retained = list(retained)
+    return cut_rank(adj_mat, retained) == len(retained)
+
+
+def uniformity_certificate(adj_mat, k):
+    """Check every k-subset; return a failing cut and rank when one exists.
+
+    Complexity is combinatorial in k. A failed randomized search over graphs is
+    never a certificate that k-uniform graph states do not exist.
+    """
+    a = _adjacency(adj_mat)
+    if not isinstance(k, (int, np.integer)) or not 0 <= k <= len(a):
+        raise ValueError("k must be an integer between zero and the graph order.")
+    for retained in combinations(range(len(a)), k):
+        rank = cut_rank(a, retained)
+        if rank != k:
+            return {"is_uniform": False, "k": int(k), "retained": list(retained), "rank": rank}
+    return {"is_uniform": True, "k": int(k), "retained": None, "rank": None}
+
+
+def is_k_uniform(adj_mat, k):
+    """Whether every k-qubit marginal of this graph state is maximally mixed."""
+    return uniformity_certificate(adj_mat, k)["is_uniform"]
 
 class Node:
     def __init__(self,node_type=0, neighbours = [],name=''):
@@ -92,7 +163,7 @@ class Graph:
             bool: returns False if there were no changes
         """        
         any_change = False
-        for n in self.starred:
+        for n in list(self.starred):
             for r in self.rules:
                 if r(n,self):
                     any_change = True
@@ -103,7 +174,10 @@ class Graph:
         return self.changed
     
     def simplify(self):
-        """ iterates over all nodes with simplify_step until cannot make any more changes
+        """Apply the graphical peeling rules until no rule applies.
+
+        This is an incomplete certificate, not an exact uniformity test.
+        Use is_maximally_mixed or is_k_uniform on the original adjacency matrix.
 
         Returns:
             bool: returns True if Graph is simplified, i.e. all nodes are starred.
@@ -174,6 +248,9 @@ def generate_graph( N, adj_mat):
     Returns:
         Graph: returns instance of the Graph
     """    
+    adj_mat = _adjacency(adj_mat)
+    if N != len(adj_mat):
+        raise ValueError("N must match the adjacency matrix size.")
     nodes = []
     for i in range(N):
         nodes.append(Node(1,name=i))
@@ -260,13 +337,13 @@ def disconnect(node, G):
     """      
     buf = False
     if node.node_type == 1:
-        for n in node.neighbours:
+        for n in list(node.neighbours):
             if n.node_type == 1:
                 node.disconnect(n)
                 buf = True
     return buf
 
-def adjacency_matrix_binomial(N,prob=0.5):
+def adjacency_matrix_binomial(N,prob=0.5, seed=None):
     """Makes a random adjacency matrix according to np.random.binomial function
 
     Args:
@@ -276,13 +353,13 @@ def adjacency_matrix_binomial(N,prob=0.5):
     Returns:
         _type_: _description_
     """    
-    B = np.random.binomial(1,prob, size=(N,N))
-    for i in range(N):
-        B[i,i] = 0
-    ans = (B + B.T)/2
-    return ans
+    if not isinstance(N, (int, np.integer)) or N < 0 or not 0 <= prob <= 1:
+        raise ValueError("N must be nonnegative and prob must be in [0, 1].")
+    rng = np.random if seed is None else np.random.default_rng(seed)
+    upper = np.triu(rng.binomial(1, prob, size=(N, N)), 1)
+    return upper + upper.T
 
-def adjacency_matrix_regular(N,d=3):
+def adjacency_matrix_regular(N,d=3, seed=None):
     """Makes adjacency matrix for a regular graph 
 
     Args:
@@ -292,6 +369,5 @@ def adjacency_matrix_regular(N,d=3):
     Returns:
         ndarray: returns 2d array
     """    
-    G = nx.random_regular_graph(d,N)
+    G = nx.random_regular_graph(d,N, seed=seed)
     return nx.to_numpy_array(G)
-

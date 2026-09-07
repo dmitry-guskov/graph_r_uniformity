@@ -1,0 +1,1262 @@
+{
+  "description": "Exact finite profile certificate with analytic lower profile; graph enumeration is independent corroboration only.",
+  "python": "3.13.7",
+  "analytic_lower_profile": [
+    0,
+    5,
+    6,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rows": [
+    {
+      "length": 5,
+      "r": 2,
+      "profiles": 15,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 5,
+      "r": 3,
+      "profiles": 35,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 5,
+      "r": 4,
+      "profiles": 70,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 5,
+      "r": 5,
+      "profiles": 126,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 5,
+      "r": 6,
+      "profiles": 210,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 5,
+      "r": 7,
+      "profiles": 330,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 6,
+      "r": 2,
+      "profiles": 21,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 6,
+      "r": 3,
+      "profiles": 56,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 6,
+      "r": 4,
+      "profiles": 126,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 6,
+      "r": 5,
+      "profiles": 252,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 6,
+      "r": 6,
+      "profiles": 462,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 6,
+      "r": 7,
+      "profiles": 792,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 7,
+      "r": 2,
+      "profiles": 28,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 7,
+      "r": 3,
+      "profiles": 84,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 7,
+      "r": 4,
+      "profiles": 210,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 7,
+      "r": 5,
+      "profiles": 462,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 7,
+      "r": 6,
+      "profiles": 924,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 7,
+      "r": 7,
+      "profiles": 1716,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 8,
+      "r": 2,
+      "profiles": 36,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 8,
+      "r": 3,
+      "profiles": 120,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 8,
+      "r": 4,
+      "profiles": 330,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 8,
+      "r": 5,
+      "profiles": 792,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 8,
+      "r": 6,
+      "profiles": 1716,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 8,
+      "r": 7,
+      "profiles": 3432,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 9,
+      "r": 2,
+      "profiles": 45,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 9,
+      "r": 3,
+      "profiles": 165,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 9,
+      "r": 4,
+      "profiles": 495,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 9,
+      "r": 5,
+      "profiles": 1287,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 9,
+      "r": 6,
+      "profiles": 3003,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 9,
+      "r": 7,
+      "profiles": 6435,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 10,
+      "r": 2,
+      "profiles": 55,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 10,
+      "r": 3,
+      "profiles": 220,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 10,
+      "r": 4,
+      "profiles": 715,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 10,
+      "r": 5,
+      "profiles": 2002,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 10,
+      "r": 6,
+      "profiles": 5005,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 10,
+      "r": 7,
+      "profiles": 11440,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 11,
+      "r": 2,
+      "profiles": 66,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 11,
+      "r": 3,
+      "profiles": 286,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 11,
+      "r": 4,
+      "profiles": 1001,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 11,
+      "r": 5,
+      "profiles": 3003,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 11,
+      "r": 6,
+      "profiles": 8008,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 11,
+      "r": 7,
+      "profiles": 19448,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 12,
+      "r": 2,
+      "profiles": 78,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 12,
+      "r": 3,
+      "profiles": 364,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 12,
+      "r": 4,
+      "profiles": 1365,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 12,
+      "r": 5,
+      "profiles": 4368,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 12,
+      "r": 6,
+      "profiles": 12376,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 12,
+      "r": 7,
+      "profiles": 31824,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 13,
+      "r": 2,
+      "profiles": 91,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 13,
+      "r": 3,
+      "profiles": 455,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 13,
+      "r": 4,
+      "profiles": 1820,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 13,
+      "r": 5,
+      "profiles": 6188,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 13,
+      "r": 6,
+      "profiles": 18564,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 13,
+      "r": 7,
+      "profiles": 50388,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 14,
+      "r": 2,
+      "profiles": 105,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 14,
+      "r": 3,
+      "profiles": 560,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 14,
+      "r": 4,
+      "profiles": 2380,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 14,
+      "r": 5,
+      "profiles": 8568,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 14,
+      "r": 6,
+      "profiles": 27132,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 14,
+      "r": 7,
+      "profiles": 77520,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 15,
+      "r": 2,
+      "profiles": 120,
+      "minimum_bound": 10,
+      "witness": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 15,
+      "r": 3,
+      "profiles": 680,
+      "minimum_bound": 9,
+      "witness": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 15,
+      "r": 4,
+      "profiles": 3060,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 15,
+      "r": 5,
+      "profiles": 11628,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 15,
+      "r": 6,
+      "profiles": 38760,
+      "minimum_bound": 8,
+      "witness": [
+        1,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "length": 15,
+      "r": 7,
+      "profiles": 116280,
+      "minimum_bound": 9,
+      "witness": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "unresolved": [],
+  "cross_section_corroboration": [
+    {
+      "lengths": [
+        3,
+        3
+      ],
+      "cross_section_subsets": 501,
+      "exact_f": [
+        0,
+        5,
+        6,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4
+      ],
+      "cross_section_subsets": 3301,
+      "exact_f": [
+        0,
+        5,
+        6,
+        7,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4
+      ],
+      "cross_section_subsets": 26332,
+      "exact_f": [
+        0,
+        5,
+        6,
+        7,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "certificate_seconds": 4.419503667159006,
+  "seconds": 4.475271207978949,
+  "total_cross_section_subsets": 30134,
+  "total_profiles": 489698
+}

@@ -1,0 +1,367 @@
+{
+  "published_overlap": {
+    "source": "Kovalev, Dumer, Pryadko, PRA 84, 062319 (2011), Example 12 and Table I",
+    "graph_generator": "ZIZIIXIIZIZ",
+    "circulant_offsets": [
+      3,
+      5,
+      10,
+      12
+    ],
+    "cartesian_to_circulant_permutation": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      5,
+      8,
+      11,
+      14,
+      2,
+      10,
+      13,
+      1,
+      4,
+      7
+    ],
+    "permutation_formula": "(a,b) -> (5*a+3*b) mod15",
+    "adjacency_equal": true,
+    "published_classical_basis_hex": [
+      "0x1249",
+      "0x2492",
+      "0x4924"
+    ],
+    "allones_in_published_classical_code": true,
+    "conclusion": "Our repetition-word [[15,1,5]] is a subcode of the published [[15,3,5]] on the identical graph under this permutation."
+  },
+  "stabilizer_rank": 14,
+  "graph_stabilizer_rank": 15,
+  "normalizer_rank": 16,
+  "stabilizer_commutes": true,
+  "logical_pair_anticommutes": true,
+  "canonical_logical_z": "XZIIZZIIIIZIIII",
+  "canonical_logical_z_weight": 5,
+  "sizes": [
+    3,
+    5
+  ],
+  "n": 15,
+  "degree": 4,
+  "vertex_order": "lexicographic (a,b), b fastest; leftmost label corresponds vertex0",
+  "enumerated_counts": {
+    "0": 1,
+    "1": 45,
+    "2": 945
+  },
+  "total": 991,
+  "distinct_syndromes": 991,
+  "collision_count": 0,
+  "minimum_collision_product_weight": null,
+  "example_collisions": [],
+  "independent_minimum_nontrivial_logical_weight": 5,
+  "minimum_normalizer_weight": 5,
+  "logical_witnesses": [
+    {
+      "pauli": "YYYYYIIIIIIIIII",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "pauli": "ZXZIIIZIIIIZIII",
+      "weight": 5,
+      "classical_image": 0,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "pauli": "XXIZIIIIXIIIIXI",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 0,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "pauli": "XZIIZZIIIIZIIII",
+      "weight": 5,
+      "classical_image": 0,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pauli": "XXIIIIIZIZIIIYI",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "pauli": "XXIIIIIIYIIIZIZ",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "pauli": "ZIXXIXIIIIXIIII",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 0,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "pauli": "XIZIXIIXIIIIXII",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 0,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "pauli": "ZIZIIIYIIIIIIXX",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "pauli": "ZIZIIIIIXXIYIII",
+      "weight": 5,
+      "classical_image": 32767,
+      "x_parity": 1,
+      "support_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  ],
+  "canonical_error_syndrome_stream_sha256": "8e676fa3b19f0e7c9f86ba43b5f7ccce19c4513b4e24314a6deaa1932a7392a4",
+  "stream_contract": "weight0..2, lex supports and assignments X,Y,Z, x,z,s two little-endian bytes each, identity first",
+  "source_sha256": "903c0d19ec24145715b0362bd2ebdcc8d9b2513a33fe7de0daf2cbc383a29f5a",
+  "seconds": 0.8871829169802368,
+  "adjacency_hex": [
+    "0x432",
+    "0x845",
+    "0x108a",
+    "0x2114",
+    "0x4209",
+    "0x641",
+    "0x8a2",
+    "0x1144",
+    "0x2288",
+    "0x4130",
+    "0x4821",
+    "0x1442",
+    "0x2884",
+    "0x5108",
+    "0x2610"
+  ]
+}

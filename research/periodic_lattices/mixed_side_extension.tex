@@ -1,0 +1,142 @@
+\clearpage
+\section*{Mixed side lengths: stronger classification}
+
+The preceding proof assumes every side is long. The extension below allows short factors. All new arguments below are analytic. The finite arithmetic certificates and large graph scans are independent corroboration rather than necessary proof steps. Write $d(H)=\min_{x\ne0}|\supp x\cup\supp(A_Hx)|$.
+
+\begin{theorem}[Mixed-side classification]\label{thm:mixed}
+Let $D\ge3$ and $L_i\ge3$ for every coordinate. Then
+\[
+d\!\left(\mathop{\square}_{i=1}^{D}C_{L_i}\right)=
+\begin{cases}
+2D,&\text{if every }L_i\in\{3,4\},\\
+2D+1,&\text{if at least one }L_i\ge5.
+\end{cases}
+\]
+In the second case, the only minimum-weight stabilizers are the $N=\prod_iL_i$ canonical generators. Thus the state is exactly $2D$-uniform if and only if at least one side is long.
+\end{theorem}
+
+\subsection*{Two product lemmas}
+Suppose $H$ is $h$-regular and $d(H)\ge h$. In $H\square C_L$, a singleton slice has internal weight $h+1$. With $r_t=|\supp x_t|$, occupied slices obey
+\begin{equation}\label{eq:bonus}
+ W_t\ge\max\{r_t,h+1_{r_t=1}-r_{t-1}-r_{t+1}\},
+\end{equation}
+while empty slices have $W_t=|\supp(x_{t-1}+x_{t+1})|\ge|r_{t-1}-r_{t+1}|$. Put $r=\sum_t r_t$, let $k$ be the number of occupied slices, and define $\delta=\sum_{t\in P}(2-\deg_Pt)r_t$. Then
+\begin{equation}\label{eq:bonus-sum}
+ W\ge kh-2r+\delta+\#\{t:r_t=1\}+\sum_{t\notin P}W_t.
+\end{equation}
+
+If exactly two slices $u,v$ are occupied, then
+\begin{equation}\label{eq:two-slices}
+ W\ge w_H(u)+w_H(v)\ge2h.
+\end{equation}
+For nonadjacent slices their internal outputs are unchanged. For adjacent slices, their perturbations can remove at most $|\supp v\setminus\supp u|+|\supp u\setminus\supp v|=|\supp(u+v)|$ support sites in total. For $L=3$ the remaining slice restores exactly that many sites. For $L\ge4$ the two outward empty slices restore $|u|+|v|$, at least this amount. This argument also proves the first inequality without the hypothesis $d(H)\ge h$.
+
+\begin{lemma}[Four-cycle lifting]\label{lem:four}
+If $h\ge2$ is even, $H$ is $h$-regular, and $d(H)\ge h$, then $d(H\square C_4)\ge h+2$.
+\end{lemma}
+\begin{proof}
+Assume $W\le h+1$, hence $r\le h+1$. With one occupied slice, $W=w_H(x)+2r\ge h+2$. With two, \eqref{eq:two-slices} gives $2h>h+1$. With four, $h=2$ is impossible by $r\ge4$; otherwise \eqref{eq:bonus-sum} gives $W\ge4h-2r\ge2h-2>h+1$.
+
+With three occupied slices let their consecutive cardinalities be $a,b,c$, with $b$ in the middle, and put $m=\max(a,c)$. The empty slice and \eqref{eq:bonus} give
+\[
+ W\ge b+\max(a,h-b)+\max(c,h-b)+|a-c|
+ \ge b+2\max(m,h-b)\ge h+m.
+\]
+The middle inequality follows by splitting $h-b$ below, within, or above the interval with endpoints $a,c$. The final inequality follows by comparing $b$ to $h-m$. If $m\ge2$ the result follows. If $m=1$, both endpoints are singletons, and replacing $h$ by $h+1$ in the displayed bound gives $W\ge h+2$.
+\end{proof}
+
+\begin{lemma}[Long-cycle lifting]\label{lem:long}
+If $h\ge6$, $H$ is $h$-regular, and $d(H)\ge h$, then for every $L\ge5$, $d(H\square C_L)=h+3$ and its only minimum selections are singletons.
+\end{lemma}
+\begin{proof}
+A singleton attains $h+3$. Assume $W\le h+3$, so $r\le h+3$, and exclude every nonsingleton. If $k\ge5$, \eqref{eq:bonus-sum} gives $W\ge5h-2r\ge3h-6\ge h+6$. If $k=2$, \eqref{eq:two-slices} gives $W\ge2h\ge h+6$. If $k=1$ and $r\ge2$, then $W\ge h+2r\ge h+4$.
+
+For $k=3$, if the occupied projection has at most one edge, its weighted degree sum is at most $r-1$, so $W\ge3h-r+1\ge2h-2\ge h+4$. Otherwise the three slices form a path with sizes $a,b,c$. Its outward empty neighbors are distinct. Set $u=a+c$ and $\sigma=1_{a=1}+1_{c=1}$. Keep the middle slice's selected sites and use \eqref{eq:bonus} at the endpoints to get
+\[
+ W\ge2h-b+u+\sigma\ge h-3+2u+\sigma.
+\]
+This is at least $h+4$ for $u\ge3$. If $u=2$, both endpoints are singletons and the sharper bound gives
+\[
+ W\ge b+2\max(1,h+1-b)+2\ge h+4.
+\]
+
+For $k=4$, the occupied projection is a union of paths. With at least two components, $\delta\ge4$, so $W\ge4h-2r+4\ge h+4$. With one component let $a,d$ be its endpoint cardinalities. Then $\delta=a+d$. The empty contributions are at least $|a-d|$ when $L=5$ and at least $a+d$ when $L\ge6$. Consequently their sum with $\delta$ is at least $2\max(a,d)$. If this is less than four, $a=d=1$, and the two singleton bonuses in \eqref{eq:bonus-sum} supply the missing two. Again $W\ge4h-2r+4\ge h+4$.
+\end{proof}
+
+\subsection*{All-short tori}
+For $C_3^{\square a}$ the binary adjacency satisfies $A^2=A$. Every $x$ decomposes uniquely as $y+z$ with $y=Ax\in\operatorname{im}A$ and $z=(A+I)x\in\ker A$. Its support union is $\supp y\cup\supp z$, hence
+\[
+ d(C_3^{\square a})=\min\{d(\operatorname{im}A),d(\ker A)\}.
+\]
+The Hamming-graph code result of Fish, Key and Mwambene~\cite{fishhamming} gives $d(\operatorname{im}A)=2a$ and, for $a\ge4$, $d(\ker A)=2a+1$. Their proof also records the small dual distances $3,3,6$ for $a=1,2,3$, respectively. In particular $d(C_3^3)=6$ and $d(C_3^a)=2a$ for $a\ge4$. These are applications of existing results.
+
+The remaining base $C_3^2\square C_4$ has distance six by the following elementary argument. In $H=C_3^2$, singleton weight is five, pair weight is six, and every selection has weight at least its size. Assume $W\le5$ in $H\square C_4$. One occupied slice gives $w_H(x)+2r\ge7$; two give at least eight by \eqref{eq:two-slices}, including the possible size pairs $(3,1),(3,2),(4,1)$. Four occupied slices have sizes at most two, and summing internal lower bounds four gives $W\ge16-2r\ge6$. With three slices all of size at most two, the proof of Lemma~\ref{lem:four} applies with $h=4$. The only other profiles are permutations of $(3,1,1)$: the middle-three profile has occupied contribution at least $2+3+2=7$, while an endpoint-three profile has at least $3+1+4=8$. This excludes $W\le5$.
+
+Starting from the one-dimensional bases $C_3,C_4$ of distance two, the base $C_3^2\square C_4$, and the published all-triangle bases, repeated application of Lemma~\ref{lem:four} proves $d\ge2D$ for every all-short torus of dimension $D\ge3$. To see equality, write its adjacency as $A=B+C$, where $B$ sums triangle-coordinate adjacencies and $C$ sums four-cycle adjacencies. Commutativity over $\F$ gives $A^2=B$. For $x=Ae_v$, therefore, $Ax=Be_v$ is supported inside $x$, which has weight $2D$.
+
+\subsection*{Analytic low-dimensional mixed bases}
+For $H\in\{C_3\square C_3,C_3\square C_4,C_4\square C_4\}$ a singleton has weight five and a pair has weight at least six. Adjacent vertices have at most one common neighbor; nonadjacent vertices have at most two. This proves the pair bound from $|A(e_u+e_v)|=8-2|N(u)\cap N(v)|$, adding the selected vertices when they are nonadjacent. Thus an analytic lower profile is
+\[
+ f(0),\ldots,f(7)=(0,5,6,3,4,5,6,7).
+\]
+For a cyclic sequence of slice sizes define
+\begin{equation}\label{eq:profile}
+ B(r)=\sum_{r_t>0}\max\{r_t,f(r_t)-r_{t-1}-r_{t+1}\}
+       +\sum_{r_t=0}|r_{t-1}-r_{t+1}|.
+\end{equation}
+The slice inequality gives $W\ge B(r)$. We prove $B(r)\ge8$ for every $L\ge5$ and $2\le r=\sum r_t\le7$, without restricting $L$ to a finite range.
+
+With one occupied position, $B=f(r)+2r\ge9$. With two, each occupied position has a distinct private empty neighbor, so the empty contribution is at least $r$. Thus $B\ge2r\ge8$ if $r\ge4$. If $r=2$ or $3$, both populations $a,b$ are at most two, and their occupied contributions are at least $f(a)-b+f(b)-a=8$.
+
+With three occupied positions, a projection with no edges contributes at least nine internally. If there is one edge with populations $a,b$, its contribution is at least $g(a,b)=\max(a,f(a)-b)+\max(b,f(b)-a)$. For $a+b\ge5$, $g\ge5$ by selected cardinality. The remaining unordered pairs $(1,1),(1,2),(1,3),(2,2)$ give $g=8,8,5,8$, respectively. The isolated slice contributes at least three, proving $B\ge8$. If there are two edges, the projection is a path with populations $a,b,c$. Its outward empty neighbors contribute $u=a+c$, hence
+\[
+ B\ge u+b+\max(a,f(a)-b)+\max(c,f(c)-b).
+\]
+For $u\ge4$, this is at least $2u+b\ge9$. For $u=2$, it is $b+2+2\max(1,5-b)\ge8$. For $u=3$, it is $b+3+\max(1,5-b)+\max(2,6-b)\ge10$.
+
+With four occupied positions the degree deficit $\delta$ is at least two. The seven possible unordered cardinality partitions and their elementary lower bounds $\sum f(r_t)-2r+2$ are
+\[
+\begin{array}{c|rrrrrrr}
+(r_t)_{t\in P}&1111&2111&3111&2211&4111&3211&2221\\\hline
+\text{lower bound}&14&13&8&12&7&7&11.
+\end{array}
+\]
+This table merely substitutes seven integer partitions into the displayed inequality; it uses no enumeration program. For the two preliminary bounds seven, $\delta\ge3$ suffices. If $\delta=2$, the projection is one path with singleton endpoints. Up to reversal its profile is $(1,4,1,1)$ or $(1,3,2,1)$. Their occupied maxima are at least $(1,4,1,4)$ and $(2,3,2,3)$, respectively, both totaling ten.
+
+Finally, with $k\ge5$ occupied positions and $r\le7$, every size is at most three and at most one is three. Thus $\sum f(r_t)\ge5k-2$, and $B\ge5k-2-2r\ge5k-16\ge9$. All cases are covered. A nonsingleton selection of weight at most seven would have $2\le r\le7$ and therefore $W\ge8$, a contradiction. Each of the three short-cross-section products with a long cycle consequently has distance seven and singleton-only minima.
+
+\subsection*{Analytic two-dimensional strips and minimum classification}
+In fact, for every $a\ge3$ and $L\ge5$, $C_a\square C_L$ has distance five, with singleton-only minima except at $a=L=5$. Slice along $C_L$ and replace the preceding lower profile by $f(1)=3$ and $f(s)=s$ for $s\ge2$. Assume $W\le5$, so $r\le5$, and exclude nonsingletons.
+
+One occupied slice gives $W\ge f(r)+2r\ge6$. With two occupied slices, distinct private empty neighbors contribute $r$, so $W\ge2r\ge6$ for $r\ge3$. For $r=2$, two nonadjacent singleton slices have unchanged internal weights summing to six; adjacent ones obey the exact inequality~\eqref{eq:two-slices}.
+
+With three occupied slices and no occupied edges, the internal $f$-sum is at least seven. With one occupied edge, let its populations be $a,b$ and the isolated population be $c$. If $a+b=2$, the edge contributes at least four and $f(c)\ge2$. If $a+b=3$, the edge contributes at least three, which suffices when $c=1$. When $c=2$, the two empty gaps joining the components add at least $|a-c|+|b-c|\ge|a-b|=1$, completing the lower bound six. A length-one gap gives the corresponding difference; a longer gap gives the boundary sum, at least the difference. If $a+b=4$, necessarily $c=1$, and the edge contributes at least four while the isolated slice contributes three. With two occupied edges, the projection is a path with endpoint population total $u$ and middle population $b$. For $u\ge3$, the selected and outward-empty contributions give $W\ge2u+b\ge7$. For $u=2$, singleton endpoints give $W\ge b+2+2\max(1,3-b)\ge6$, for $b=1,2,3$.
+
+With four occupied slices and $r=4$, the degree deficit gives $W\ge12-2r+\delta\ge6$. With $r=5$, there is one double slice and three singleton slices. Let $e$ be the number of occupied edges and $d$ the induced degree of the double slice. Then $\delta=10-2e-d$. Summing the raw slice bounds gives $11-2r+\delta$, and enforcing the double slice's two selected sites improves its raw bound $2-d$ by exactly $d$. Hence $W\ge11-2e\ge7$ if $e\le2$. If $e=3$, the occupied path is, up to reversal, $(2,1,1,1)$ or $(1,2,1,1)$. Their occupied maxima are $(2,1,1,2)$ and $(1,2,1,2)$, both summing to six.
+
+Five occupied slices force five singletons. If their projection is proper, $W\ge15-10+\delta\ge7$. Therefore only $L=5$ with one selected vertex $a_t$ in every slice can be a nonsingleton minimum. Since $W=r=5$, each slice's binary $Z$ output is supported only at its selected vertex. That output has even parity, as the internal cycle contributes two entries and the two neighboring singleton inputs also have even combined parity. It must therefore vanish:
+\[
+ A_{C_a}e_{a_t}=e_{a_{t-1}}+e_{a_{t+1}}.
+\]
+The sequence $(a_t)$ is a nonbacktracking closed length-five walk on $C_a$, which keeps a fixed orientation. Closure requires $a\mid5$, hence $a=5$. Its five offsets and two orientations yield precisely the ten diagonal selections. Each has zero odd neighborhood and weight five. This proves the distance and complete minimum classification for every $a\ge3$, $L\ge5$.
+
+\subsection*{Dimension-three completion and induction}
+For $C_a\square C_L\square C_M$ with one short side and $L,M\ge5$, assume $W\le7$. Slicing along either long side gives a cross-section of distance five by the strip result. With $r\le7$, the projection bounds for $k\ge5$, $k=4$, and $k\le3$ without adjacent empties are respectively at least $11,8,8$. Thus both long directions have adjacent-empty pairs, and $W\ge r+4$, so $r\le3$. Pairs have weight at least ten by the common-neighbor count in this degree-six graph. For a triple, slice along the short direction. One occupied slice contributes at least $5+6=11$. Two occupied slices have sizes one and two: on $C_3$ their occupied contribution is at least $10-3=7$ and the empty slice adds at least one; on $C_4$, adjacent slices add three outward empty sites, and opposite slices already contribute at least ten. Three occupied singleton slices contribute at least nine on $C_3$ and eleven on $C_4$. Only singleton selections remain. Together with the preceding all-long result, this proves the complete dimension-three base of Theorem~\ref{thm:mixed}.
+
+\begin{proof}[Completion of Theorem~\ref{thm:mixed}]
+The all-short case was proved above. Induct on $D\ge4$ in the case with a long side, choosing that side as the final factor. The cross-section has dimension $D-1$, degree $h=2D-2\ge6$, and distance at least $h$, either by the all-short result or by induction. Lemma~\ref{lem:long} gives distance $h+3=2D+1$ and singleton-only minima. Dimension three is supplied by the explicitly audited bases above.
+\end{proof}
+
+\subsection*{Two-dimensional exception and quantum-code consequence}
+For $D=2$ and at least one long side, the distance is five. The minimum multiplicity is $N$, except on $C_5\square C_5$, where it is 35. The extra ten selections are $\{(t,c\pm t):t\in\mathbb Z_5\}$, $c\in\mathbb Z_5$. The complete analytic proof above is also recorded in \texttt{higher\_dimensions/dimension\_two\_analytic.md}. No minimum-multiplicity formula is asserted here for arbitrary-dimensional all-short mixtures.
+
+For $G_D=C_3^{\square(D-1)}\square C_5$, Theorem~\ref{thm:mixed} and the established CWS construction~\cite{sudevan2025} yield a pure
+\[
+ [[5\cdot3^{D-1},1,2D+1]]
+\]
+code for $D\ge3$. Indeed the length-$N$ repetition code has distance $N>2D(2D+1)$, the sufficient classical-distance condition, and $\operatorname{span}\{|G_D\rangle,Z_{\rm all}|G_D\rangle\}$ has stabilizer generated by $K_0K_v$. A canonical $K_v$ is a logical operator of weight $2D+1$, showing exact distance. Independently, the 45-qubit instance has 392,176 distinct syndromes for all errors of weight at most three, proving purity and distance at least seven; $K_v$ proves equality. The code rank and logical commutation checks are included in \texttt{code\_application/verify\_code.py}.
+
+The 15-qubit instance is not new: the checked permutation $(a,b)\mapsto5a+3b\pmod {15}$ identifies its graph with the $[[15,3,5]]$ construction in Table I of Ref.~\cite{kovalev2011}. The repetition word lies in that published classical word code, so our $[[15,1,5]]$ is a literal subcode. The CWS conversion itself is established, and no best-parameter, fixed-dimensional locality, or hardware advantage is claimed. The family has degree $2D$, distance logarithmic in its length, and rate $1/N$.
+
+\subsection*{Research status and remaining priority questions}
+The equal-side two-dimensional distance-five family is expressly stated in Ref.~\cite{kovalev2011}, Example 6. Its Example 5 concerns quantum codes on open lattice fragments with distance $2D$, a different statement. Ref.~\cite{sudevan2022} also covers rectangular two-dimensional lattices with both side lengths at least five and exhibits the diagonal minimum on the five-by-five torus. Existing classical adjacency-code results cover important all-short subfamilies. The inspected Cartesian section of Ref.~\cite{fishlcd} provides LCD preservation and codeword constructions; it does not supply the support-union lower bound in Lemma~\ref{lem:long}. The full 2017 cycle-product article~\cite{fishcycles} and the result behind the 2019 abstract remain unresolved priority checks. Accordingly, the present contribution is a concrete, reproducible proof candidate; publication novelty has not been established.

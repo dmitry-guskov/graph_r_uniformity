@@ -1,0 +1,126 @@
+lens 3 3 5 N=45
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=3.375e-06
+r=2 anchored_subsets=44 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=7.166e-06
+r=3 anchored_subsets=946 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=0.000170334
+r=4 anchored_subsets=13244 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.000884917
+r=5 anchored_subsets=135751 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.00570833
+lens 3 3 6 N=54
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=3e-06
+r=2 anchored_subsets=53 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=6.792e-06
+r=3 anchored_subsets=1378 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=3.7417e-05
+r=4 anchored_subsets=23426 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.00105004
+r=5 anchored_subsets=292825 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.00836671
+lens 3 3 7 N=63
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.375e-06
+r=2 anchored_subsets=62 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=5.083e-06
+r=3 anchored_subsets=1891 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=4.7375e-05
+r=4 anchored_subsets=37820 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.00122071
+r=5 anchored_subsets=557845 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.0245458
+lens 3 3 8 N=72
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.417e-06
+r=2 anchored_subsets=71 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=5.625e-06
+r=3 anchored_subsets=2485 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=8.05e-05
+r=4 anchored_subsets=57155 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.00199846
+r=5 anchored_subsets=971635 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.0381371
+lens 3 3 9 N=81
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.667e-06
+r=2 anchored_subsets=80 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=5.875e-06
+r=3 anchored_subsets=3160 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=8.6833e-05
+r=4 anchored_subsets=82160 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.00282708
+r=5 anchored_subsets=1581580 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.0668838
+lens 3 3 10 N=90
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.333e-06
+r=2 anchored_subsets=89 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=6.084e-06
+r=3 anchored_subsets=3916 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=0.000120875
+r=4 anchored_subsets=113564 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.00433683
+r=5 anchored_subsets=2441626 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.105328
+lens 3 3 11 N=99
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=3e-06
+r=2 anchored_subsets=98 minimum_weight=10 anchored_minimizers=16 witness=0,1, seconds=8.208e-06
+r=3 anchored_subsets=4753 minimum_weight=9 anchored_minimizers=2 witness=0,4,8, seconds=0.000152458
+r=4 anchored_subsets=152096 minimum_weight=12 anchored_minimizers=168 witness=0,1,3,4, seconds=0.00669517
+r=5 anchored_subsets=3612280 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,8,11, seconds=0.121465
+lens 3 4 5 N=60
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.583e-06
+r=2 anchored_subsets=59 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=5.583e-06
+r=3 anchored_subsets=1711 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=5.25e-05
+r=4 anchored_subsets=32509 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.00168871
+r=5 anchored_subsets=455126 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.0128291
+lens 3 4 6 N=72
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.625e-06
+r=2 anchored_subsets=71 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=6e-06
+r=3 anchored_subsets=2485 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=7.7625e-05
+r=4 anchored_subsets=57155 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.00218408
+r=5 anchored_subsets=971635 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.0314331
+lens 3 4 7 N=84
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.375e-06
+r=2 anchored_subsets=83 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=1.6417e-05
+r=3 anchored_subsets=3403 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=0.000119791
+r=4 anchored_subsets=91881 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.00270462
+r=5 anchored_subsets=1837620 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.0617863
+lens 3 4 8 N=96
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=3.416e-06
+r=2 anchored_subsets=95 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=6.292e-06
+r=3 anchored_subsets=4465 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=0.000159875
+r=4 anchored_subsets=138415 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.00906538
+r=5 anchored_subsets=3183545 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.102513
+lens 3 4 9 N=108
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.375e-06
+r=2 anchored_subsets=107 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=6.542e-06
+r=3 anchored_subsets=5671 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=0.000175666
+r=4 anchored_subsets=198485 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.00696117
+r=5 anchored_subsets=5160610 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.195612
+lens 3 4 10 N=120
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.459e-06
+r=2 anchored_subsets=119 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=6.917e-06
+r=3 anchored_subsets=7021 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=0.000183542
+r=4 anchored_subsets=273819 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.0110675
+r=5 anchored_subsets=7940751 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.21794
+lens 3 4 11 N=132
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.625e-06
+r=2 anchored_subsets=131 minimum_weight=10 anchored_minimizers=15 witness=0,1, seconds=8.083e-06
+r=3 anchored_subsets=8515 minimum_weight=13 anchored_minimizers=204 witness=0,1,3, seconds=0.00027075
+r=4 anchored_subsets=366145 minimum_weight=12 anchored_minimizers=58 witness=0,1,5,11, seconds=0.0105142
+r=5 anchored_subsets=11716640 minimum_weight=11 anchored_minimizers=10 witness=0,1,5,11,14, seconds=0.483353
+lens 4 4 5 N=80
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=3.042e-06
+r=2 anchored_subsets=79 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=8.125e-06
+r=3 anchored_subsets=3081 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.000176042
+r=4 anchored_subsets=79079 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.00257967
+r=5 anchored_subsets=1502501 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.0451934
+lens 4 4 6 N=96
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.5e-06
+r=2 anchored_subsets=95 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=6.584e-06
+r=3 anchored_subsets=4465 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.000121917
+r=4 anchored_subsets=138415 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.00378917
+r=5 anchored_subsets=3183545 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.0867713
+lens 4 4 7 N=112
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.583e-06
+r=2 anchored_subsets=111 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=6.875e-06
+r=3 anchored_subsets=6105 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.00016
+r=4 anchored_subsets=221815 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.00519004
+r=5 anchored_subsets=5989005 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.126774
+lens 4 4 8 N=128
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.375e-06
+r=2 anchored_subsets=127 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=6.333e-06
+r=3 anchored_subsets=8001 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.000170458
+r=4 anchored_subsets=333375 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.00709771
+r=5 anchored_subsets=10334625 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.229631
+lens 4 4 9 N=144
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.042e-06
+r=2 anchored_subsets=143 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=7.041e-06
+r=3 anchored_subsets=10153 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.000239792
+r=4 anchored_subsets=477191 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.0118103
+r=5 anchored_subsets=16701685 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.470835
+lens 4 4 10 N=160
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=1.959e-06
+r=2 anchored_subsets=159 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=7.292e-06
+r=3 anchored_subsets=12561 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.000309833
+r=4 anchored_subsets=657359 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.0152893
+r=5 anchored_subsets=25637001 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.574201
+lens 4 4 11 N=176
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2e-06
+r=2 anchored_subsets=175 minimum_weight=10 anchored_minimizers=14 witness=0,2, seconds=7.583e-06
+r=3 anchored_subsets=15225 minimum_weight=13 anchored_minimizers=165 witness=0,2,5, seconds=0.00035325
+r=4 anchored_subsets=877975 minimum_weight=12 anchored_minimizers=63 witness=0,2,5,13, seconds=0.020243
+r=5 anchored_subsets=37752925 minimum_weight=11 anchored_minimizers=10 witness=0,2,5,13,17, seconds=0.8279
