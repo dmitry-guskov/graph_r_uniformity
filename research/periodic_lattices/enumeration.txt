@@ -1,0 +1,32 @@
+lens 5 N=5
+r=1 anchored_subsets=1 minimum_weight=3 anchored_minimizers=1 witness=0, seconds=3.875e-06
+r=2 anchored_subsets=4 minimum_weight=4 anchored_minimizers=4 witness=0,1, seconds=5.291e-06
+lens 5 5 N=25
+r=1 anchored_subsets=1 minimum_weight=5 anchored_minimizers=1 witness=0, seconds=2.667e-06
+r=2 anchored_subsets=24 minimum_weight=6 anchored_minimizers=4 witness=0,6, seconds=4.542e-06
+r=3 anchored_subsets=276 minimum_weight=7 anchored_minimizers=6 witness=0,6,12, seconds=1.6084e-05
+r=4 anchored_subsets=2024 minimum_weight=8 anchored_minimizers=28 witness=0,1,7,9, seconds=8.3708e-05
+r=5 anchored_subsets=10626 minimum_weight=5 anchored_minimizers=2 witness=0,6,12,18,24, seconds=0.000462417
+lens 5 6 N=30
+r=1 anchored_subsets=1 minimum_weight=5 anchored_minimizers=1 witness=0, seconds=2.666e-06
+r=2 anchored_subsets=29 minimum_weight=6 anchored_minimizers=4 witness=0,6, seconds=4.708e-06
+r=3 anchored_subsets=406 minimum_weight=7 anchored_minimizers=6 witness=0,6,12, seconds=1.9708e-05
+r=4 anchored_subsets=3654 minimum_weight=8 anchored_minimizers=24 witness=0,1,7,9, seconds=0.000264584
+lens 5 7 N=35
+r=1 anchored_subsets=1 minimum_weight=5 anchored_minimizers=1 witness=0, seconds=2.584e-06
+r=2 anchored_subsets=34 minimum_weight=6 anchored_minimizers=4 witness=0,6, seconds=8.458e-06
+r=3 anchored_subsets=561 minimum_weight=7 anchored_minimizers=6 witness=0,6,12, seconds=2.5e-05
+r=4 anchored_subsets=5984 minimum_weight=8 anchored_minimizers=20 witness=0,1,7,9, seconds=0.000513875
+lens 5 5 5 N=125
+r=1 anchored_subsets=1 minimum_weight=7 anchored_minimizers=1 witness=0, seconds=2.958e-06
+r=2 anchored_subsets=124 minimum_weight=10 anchored_minimizers=12 witness=0,6, seconds=8.667e-06
+r=3 anchored_subsets=7626 minimum_weight=13 anchored_minimizers=114 witness=0,6,12, seconds=0.000283958
+r=4 anchored_subsets=310124 minimum_weight=14 anchored_minimizers=48 witness=0,2,6,26, seconds=0.00544954
+r=5 anchored_subsets=9381251 minimum_weight=15 anchored_minimizers=36 witness=0,2,6,21,26, seconds=0.128311
+r=6 anchored_subsets=225150024 minimum_weight=12 anchored_minimizers=6 witness=0,2,6,21,26,101, seconds=3.73504
+r=7 anchored_subsets=4465475476 minimum_weight=13 anchored_minimizers=7 witness=0,1,2,6,21,26,101, seconds=70.8537
+lens 5 5 5 5 N=625
+r=1 anchored_subsets=1 minimum_weight=9 anchored_minimizers=1 witness=0, seconds=1.583e-06
+r=2 anchored_subsets=624 minimum_weight=14 anchored_minimizers=24 witness=0,6, seconds=1.4917e-05
+r=3 anchored_subsets=194376 minimum_weight=19 anchored_minimizers=564 witness=0,6,12, seconds=0.00347804
+r=4 anchored_subsets=40300624 minimum_weight=20 anchored_minimizers=112 witness=0,6,26,126, seconds=0.886853

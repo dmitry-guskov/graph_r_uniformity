@@ -1,0 +1,137 @@
+{
+  "description": "Finite checks of scalar inequalities only; analytic proof in higher_mixed_extension.md is the theorem.",
+  "C4": [
+    {
+      "h": 2,
+      "profiles": 34,
+      "minimum": 5,
+      "witness": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 4,
+      "profiles": 125,
+      "minimum": 7,
+      "witness": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 6,
+      "profiles": 329,
+      "minimum": 9,
+      "witness": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 8,
+      "profiles": 714,
+      "minimum": 11,
+      "witness": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 10,
+      "profiles": 1364,
+      "minimum": 13,
+      "witness": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 12,
+      "profiles": 2379,
+      "minimum": 15,
+      "witness": [
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "long_cycle": [
+    {
+      "h": 6,
+      "profiles": 12200,
+      "minimum": 10,
+      "witness": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 8,
+      "profiles": 30480,
+      "minimum": 12,
+      "witness": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 10,
+      "profiles": 64180,
+      "minimum": 14,
+      "witness": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "h": 12,
+      "profiles": 120204,
+      "minimum": 16,
+      "witness": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "seconds": 1.0828618749510497,
+  "imported_bases": [
+    {
+      "lengths": [
+        3,
+        3,
+        3
+      ],
+      "distance": 6,
+      "distance_certified": true,
+      "minimum_multiplicity": 117
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        4
+      ],
+      "distance": 6,
+      "distance_certified": true,
+      "minimum_multiplicity": 48
+    }
+  ],
+  "imported_base_source": "/Users/dmitry/Research/QAOA_old_research/graph_r_uniformity/research/mixed_sides/results.json"
+}

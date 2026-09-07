@@ -1,0 +1,3620 @@
+{
+  "status": "passed",
+  "graphs": [
+    {
+      "lengths": [
+        5,
+        5
+      ],
+      "vertices": 25,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 5.42e-07,
+          "global_minimizers_of_fixed_cardinality": 25
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 24,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            6
+          ],
+          "seconds": 1.375e-06,
+          "global_minimizers_of_fixed_cardinality": 50
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 276,
+          "minimum_weight": 7,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 8.292e-06,
+          "global_minimizers_of_fixed_cardinality": 50
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 2024,
+          "minimum_weight": 8,
+          "anchored_minimizers": 28,
+          "witness": [
+            0,
+            1,
+            7,
+            9
+          ],
+          "seconds": 5.4291e-05,
+          "global_minimizers_of_fixed_cardinality": 175
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 10626,
+          "minimum_weight": 5,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            6,
+            12,
+            18,
+            24
+          ],
+          "seconds": 0.000290042,
+          "global_minimizers_of_fixed_cardinality": 10
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "5",
+        "5"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        5
+      ],
+      "vertices": 15,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 15
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 14,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.417e-06,
+          "global_minimizers_of_fixed_cardinality": 45
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 91,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 4.5e-06,
+          "global_minimizers_of_fixed_cardinality": 120
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 364,
+          "minimum_weight": 6,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            1,
+            5,
+            14
+          ],
+          "seconds": 1.2834e-05,
+          "global_minimizers_of_fixed_cardinality": 45
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 1001,
+          "minimum_weight": 7,
+          "anchored_minimizers": 85,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            12
+          ],
+          "seconds": 3.6958e-05,
+          "global_minimizers_of_fixed_cardinality": 255
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        6
+      ],
+      "vertices": 18,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 18
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 17,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 7.09e-07,
+          "global_minimizers_of_fixed_cardinality": 54
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 136,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 2.834e-06,
+          "global_minimizers_of_fixed_cardinality": 144
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 680,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            1,
+            5,
+            17
+          ],
+          "seconds": 1.1709e-05,
+          "global_minimizers_of_fixed_cardinality": 18
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 2380,
+          "minimum_weight": 7,
+          "anchored_minimizers": 20,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            15
+          ],
+          "seconds": 3.9084e-05,
+          "global_minimizers_of_fixed_cardinality": 72
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        7
+      ],
+      "vertices": 21,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 6.25e-07,
+          "global_minimizers_of_fixed_cardinality": 21
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 20,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.125e-06,
+          "global_minimizers_of_fixed_cardinality": 63
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 190,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 5.25e-06,
+          "global_minimizers_of_fixed_cardinality": 168
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 1140,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            1,
+            5,
+            20
+          ],
+          "seconds": 2.6209e-05,
+          "global_minimizers_of_fixed_cardinality": 21
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 4845,
+          "minimum_weight": 7,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            18
+          ],
+          "seconds": 0.000113583,
+          "global_minimizers_of_fixed_cardinality": 63
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "7"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        8
+      ],
+      "vertices": 24,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 1.67e-07,
+          "global_minimizers_of_fixed_cardinality": 24
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 23,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 7.5e-07,
+          "global_minimizers_of_fixed_cardinality": 72
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 253,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 4.416e-06,
+          "global_minimizers_of_fixed_cardinality": 192
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 1771,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            1,
+            5,
+            23
+          ],
+          "seconds": 2.5417e-05,
+          "global_minimizers_of_fixed_cardinality": 24
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 8855,
+          "minimum_weight": 7,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            21
+          ],
+          "seconds": 0.000129333,
+          "global_minimizers_of_fixed_cardinality": 72
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        9
+      ],
+      "vertices": 27,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 27
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 26,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.292e-06,
+          "global_minimizers_of_fixed_cardinality": 81
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 325,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 7.792e-06,
+          "global_minimizers_of_fixed_cardinality": 216
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 2600,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            1,
+            5,
+            26
+          ],
+          "seconds": 5.4083e-05,
+          "global_minimizers_of_fixed_cardinality": 27
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 14950,
+          "minimum_weight": 7,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            24
+          ],
+          "seconds": 0.000321584,
+          "global_minimizers_of_fixed_cardinality": 81
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "9"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        10
+      ],
+      "vertices": 30,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 30
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 29,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.083e-06,
+          "global_minimizers_of_fixed_cardinality": 90
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 406,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 8.209e-06,
+          "global_minimizers_of_fixed_cardinality": 240
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 3654,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            1,
+            5,
+            29
+          ],
+          "seconds": 6.3917e-05,
+          "global_minimizers_of_fixed_cardinality": 30
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 23751,
+          "minimum_weight": 7,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            27
+          ],
+          "seconds": 0.000426459,
+          "global_minimizers_of_fixed_cardinality": 90
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "10"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        11
+      ],
+      "vertices": 33,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 33
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 32,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.25e-06,
+          "global_minimizers_of_fixed_cardinality": 99
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 496,
+          "minimum_weight": 7,
+          "anchored_minimizers": 24,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 9.416e-06,
+          "global_minimizers_of_fixed_cardinality": 264
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 4960,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            1,
+            5,
+            32
+          ],
+          "seconds": 8.4542e-05,
+          "global_minimizers_of_fixed_cardinality": 33
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 35960,
+          "minimum_weight": 7,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            30
+          ],
+          "seconds": 0.00063275,
+          "global_minimizers_of_fixed_cardinality": 99
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "11"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        5
+      ],
+      "vertices": 20,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.09e-07,
+          "global_minimizers_of_fixed_cardinality": 20
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 19,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 9.58e-07,
+          "global_minimizers_of_fixed_cardinality": 50
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 171,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 3.458e-06,
+          "global_minimizers_of_fixed_cardinality": 80
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 969,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            17
+          ],
+          "seconds": 1.5958e-05,
+          "global_minimizers_of_fixed_cardinality": 20
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 3876,
+          "minimum_weight": 7,
+          "anchored_minimizers": 25,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            17
+          ],
+          "seconds": 6.1208e-05,
+          "global_minimizers_of_fixed_cardinality": 100
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        6
+      ],
+      "vertices": 24,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 24
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 23,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 9.17e-07,
+          "global_minimizers_of_fixed_cardinality": 60
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 253,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 4.583e-06,
+          "global_minimizers_of_fixed_cardinality": 96
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 1771,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            21
+          ],
+          "seconds": 2.7667e-05,
+          "global_minimizers_of_fixed_cardinality": 24
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 8855,
+          "minimum_weight": 7,
+          "anchored_minimizers": 20,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            21
+          ],
+          "seconds": 0.000131708,
+          "global_minimizers_of_fixed_cardinality": 96
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "6"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        7
+      ],
+      "vertices": 28,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 28
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 27,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 1.291e-06,
+          "global_minimizers_of_fixed_cardinality": 70
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 351,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 6.416e-06,
+          "global_minimizers_of_fixed_cardinality": 112
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 2925,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            25
+          ],
+          "seconds": 4.5666e-05,
+          "global_minimizers_of_fixed_cardinality": 28
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 17550,
+          "minimum_weight": 7,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            25
+          ],
+          "seconds": 0.000282958,
+          "global_minimizers_of_fixed_cardinality": 28
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        8
+      ],
+      "vertices": 32,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 32
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 31,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 1.042e-06,
+          "global_minimizers_of_fixed_cardinality": 80
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 465,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 7.083e-06,
+          "global_minimizers_of_fixed_cardinality": 128
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 4495,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            29
+          ],
+          "seconds": 5.9291e-05,
+          "global_minimizers_of_fixed_cardinality": 32
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 31465,
+          "minimum_weight": 7,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            29
+          ],
+          "seconds": 0.000430708,
+          "global_minimizers_of_fixed_cardinality": 32
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        9
+      ],
+      "vertices": 36,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 36
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 35,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 1.25e-06,
+          "global_minimizers_of_fixed_cardinality": 90
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 595,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 8.375e-06,
+          "global_minimizers_of_fixed_cardinality": 144
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 6545,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            33
+          ],
+          "seconds": 8.5459e-05,
+          "global_minimizers_of_fixed_cardinality": 36
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 52360,
+          "minimum_weight": 7,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            33
+          ],
+          "seconds": 0.00070025,
+          "global_minimizers_of_fixed_cardinality": 36
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "9"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        10
+      ],
+      "vertices": 40,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.91e-07,
+          "global_minimizers_of_fixed_cardinality": 40
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 39,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 1.25e-06,
+          "global_minimizers_of_fixed_cardinality": 100
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 741,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 1.025e-05,
+          "global_minimizers_of_fixed_cardinality": 160
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 9139,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            37
+          ],
+          "seconds": 0.000115709,
+          "global_minimizers_of_fixed_cardinality": 40
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 82251,
+          "minimum_weight": 7,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            37
+          ],
+          "seconds": 0.00107,
+          "global_minimizers_of_fixed_cardinality": 40
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "10"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        11
+      ],
+      "vertices": 44,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 1.67e-07,
+          "global_minimizers_of_fixed_cardinality": 44
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 43,
+          "minimum_weight": 6,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 1.208e-06,
+          "global_minimizers_of_fixed_cardinality": 110
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 903,
+          "minimum_weight": 7,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 1.2167e-05,
+          "global_minimizers_of_fixed_cardinality": 176
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 12341,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "witness": [
+            0,
+            2,
+            5,
+            41
+          ],
+          "seconds": 0.000154125,
+          "global_minimizers_of_fixed_cardinality": 44
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 123410,
+          "minimum_weight": 7,
+          "anchored_minimizers": 5,
+          "witness": [
+            0,
+            1,
+            2,
+            5,
+            41
+          ],
+          "seconds": 0.00158167,
+          "global_minimizers_of_fixed_cardinality": 44
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "11"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        5
+      ],
+      "vertices": 45,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 45
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 44,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.5e-06,
+          "global_minimizers_of_fixed_cardinality": 360
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 946,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 1.3e-05,
+          "global_minimizers_of_fixed_cardinality": 30
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 13244,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.000177417,
+          "global_minimizers_of_fixed_cardinality": 1890
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 135751,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.00182263,
+          "global_minimizers_of_fixed_cardinality": 90
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        6
+      ],
+      "vertices": 54,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 54
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 53,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.291e-06,
+          "global_minimizers_of_fixed_cardinality": 432
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 1378,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 1.7375e-05,
+          "global_minimizers_of_fixed_cardinality": 36
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 23426,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.000289708,
+          "global_minimizers_of_fixed_cardinality": 2268
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 292825,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.00366275,
+          "global_minimizers_of_fixed_cardinality": 108
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        7
+      ],
+      "vertices": 63,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 63
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 62,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.5e-06,
+          "global_minimizers_of_fixed_cardinality": 504
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 1891,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 2.35e-05,
+          "global_minimizers_of_fixed_cardinality": 42
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 37820,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.000459125,
+          "global_minimizers_of_fixed_cardinality": 2646
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 557845,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.00691763,
+          "global_minimizers_of_fixed_cardinality": 126
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "7"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        8
+      ],
+      "vertices": 72,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 72
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 71,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.875e-06,
+          "global_minimizers_of_fixed_cardinality": 576
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 2485,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 3.2417e-05,
+          "global_minimizers_of_fixed_cardinality": 48
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 57155,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.000745333,
+          "global_minimizers_of_fixed_cardinality": 3024
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 971635,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.0129733,
+          "global_minimizers_of_fixed_cardinality": 144
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        9
+      ],
+      "vertices": 81,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 81
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 80,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.792e-06,
+          "global_minimizers_of_fixed_cardinality": 648
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 3160,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 4.0792e-05,
+          "global_minimizers_of_fixed_cardinality": 54
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 82160,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.00106587,
+          "global_minimizers_of_fixed_cardinality": 3402
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 1581580,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.020938,
+          "global_minimizers_of_fixed_cardinality": 162
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "9"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        10
+      ],
+      "vertices": 90,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 90
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 89,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 2.167e-06,
+          "global_minimizers_of_fixed_cardinality": 720
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 3916,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 5.1667e-05,
+          "global_minimizers_of_fixed_cardinality": 60
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 113564,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.00153433,
+          "global_minimizers_of_fixed_cardinality": 3780
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 2441626,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.0321484,
+          "global_minimizers_of_fixed_cardinality": 180
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "10"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        11
+      ],
+      "vertices": 99,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 99
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 98,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 2.084e-06,
+          "global_minimizers_of_fixed_cardinality": 792
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 4753,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 6.0333e-05,
+          "global_minimizers_of_fixed_cardinality": 66
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 152096,
+          "minimum_weight": 12,
+          "anchored_minimizers": 168,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 0.0019415,
+          "global_minimizers_of_fixed_cardinality": 4158
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 3612280,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11
+          ],
+          "seconds": 0.0472142,
+          "global_minimizers_of_fixed_cardinality": 198
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "3",
+        "11"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        5
+      ],
+      "vertices": 60,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 60
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 59,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.459e-06,
+          "global_minimizers_of_fixed_cardinality": 450
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 1711,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 2.5e-05,
+          "global_minimizers_of_fixed_cardinality": 4080
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 32509,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.000395916,
+          "global_minimizers_of_fixed_cardinality": 870
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 455126,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.0056545,
+          "global_minimizers_of_fixed_cardinality": 120
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        6
+      ],
+      "vertices": 72,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 72
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 71,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.792e-06,
+          "global_minimizers_of_fixed_cardinality": 540
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 2485,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 3.8375e-05,
+          "global_minimizers_of_fixed_cardinality": 4896
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 57155,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.000757875,
+          "global_minimizers_of_fixed_cardinality": 1044
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 971635,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.0131512,
+          "global_minimizers_of_fixed_cardinality": 144
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "6"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        7
+      ],
+      "vertices": 84,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 84
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 83,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.917e-06,
+          "global_minimizers_of_fixed_cardinality": 630
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 3403,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 4.8166e-05,
+          "global_minimizers_of_fixed_cardinality": 5712
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 91881,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.00118404,
+          "global_minimizers_of_fixed_cardinality": 1218
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 1837620,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.024157,
+          "global_minimizers_of_fixed_cardinality": 168
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        8
+      ],
+      "vertices": 96,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.91e-07,
+          "global_minimizers_of_fixed_cardinality": 96
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 95,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 2.041e-06,
+          "global_minimizers_of_fixed_cardinality": 720
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 4465,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 6.1375e-05,
+          "global_minimizers_of_fixed_cardinality": 6528
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 138415,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.0017685,
+          "global_minimizers_of_fixed_cardinality": 1392
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 3183545,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.0419249,
+          "global_minimizers_of_fixed_cardinality": 192
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        9
+      ],
+      "vertices": 108,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 4.17e-07,
+          "global_minimizers_of_fixed_cardinality": 108
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 107,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 2.25e-06,
+          "global_minimizers_of_fixed_cardinality": 810
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 5671,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 7.5959e-05,
+          "global_minimizers_of_fixed_cardinality": 7344
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 198485,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.00264958,
+          "global_minimizers_of_fixed_cardinality": 1566
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 5160610,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.0696956,
+          "global_minimizers_of_fixed_cardinality": 216
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "9"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        10
+      ],
+      "vertices": 120,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 1.67e-07,
+          "global_minimizers_of_fixed_cardinality": 120
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 119,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 2.375e-06,
+          "global_minimizers_of_fixed_cardinality": 900
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 7021,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 9.5e-05,
+          "global_minimizers_of_fixed_cardinality": 8160
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 273819,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.00378917,
+          "global_minimizers_of_fixed_cardinality": 1740
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 7940751,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.111172,
+          "global_minimizers_of_fixed_cardinality": 240
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "10"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        11
+      ],
+      "vertices": 132,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 132
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 131,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 2.667e-06,
+          "global_minimizers_of_fixed_cardinality": 990
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 8515,
+          "minimum_weight": 13,
+          "anchored_minimizers": 204,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 0.000123625,
+          "global_minimizers_of_fixed_cardinality": 8976
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 366145,
+          "minimum_weight": 12,
+          "anchored_minimizers": 58,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.00513829,
+          "global_minimizers_of_fixed_cardinality": 1914
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 11716640,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.166842,
+          "global_minimizers_of_fixed_cardinality": 264
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "3",
+        "4",
+        "11"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        5
+      ],
+      "vertices": 80,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 3.34e-07,
+          "global_minimizers_of_fixed_cardinality": 80
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 79,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 2.125e-06,
+          "global_minimizers_of_fixed_cardinality": 560
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 3081,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 4.4125e-05,
+          "global_minimizers_of_fixed_cardinality": 4400
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 79079,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.00101825,
+          "global_minimizers_of_fixed_cardinality": 1260
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 1502501,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.0197882,
+          "global_minimizers_of_fixed_cardinality": 160
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        6
+      ],
+      "vertices": 96,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 4.58e-07,
+          "global_minimizers_of_fixed_cardinality": 96
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 95,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 2.292e-06,
+          "global_minimizers_of_fixed_cardinality": 672
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 4465,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 6.1333e-05,
+          "global_minimizers_of_fixed_cardinality": 5280
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 138415,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.00176367,
+          "global_minimizers_of_fixed_cardinality": 1512
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 3183545,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.0412052,
+          "global_minimizers_of_fixed_cardinality": 192
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "6"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        7
+      ],
+      "vertices": 112,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 112
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 111,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 2.417e-06,
+          "global_minimizers_of_fixed_cardinality": 784
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 6105,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 8.1416e-05,
+          "global_minimizers_of_fixed_cardinality": 6160
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 221815,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.00280063,
+          "global_minimizers_of_fixed_cardinality": 1764
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 5989005,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.0768281,
+          "global_minimizers_of_fixed_cardinality": 224
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        8
+      ],
+      "vertices": 128,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.08e-07,
+          "global_minimizers_of_fixed_cardinality": 128
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 127,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 2.667e-06,
+          "global_minimizers_of_fixed_cardinality": 896
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 8001,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 0.000104584,
+          "global_minimizers_of_fixed_cardinality": 7040
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 333375,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.00418817,
+          "global_minimizers_of_fixed_cardinality": 2016
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 10334625,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.131589,
+          "global_minimizers_of_fixed_cardinality": 256
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        9
+      ],
+      "vertices": 144,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 5.42e-07,
+          "global_minimizers_of_fixed_cardinality": 144
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 143,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 3e-06,
+          "global_minimizers_of_fixed_cardinality": 1008
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 10153,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 0.000148375,
+          "global_minimizers_of_fixed_cardinality": 7920
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 477191,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.00665546,
+          "global_minimizers_of_fixed_cardinality": 2268
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 16701685,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.236406,
+          "global_minimizers_of_fixed_cardinality": 288
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "9"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        10
+      ],
+      "vertices": 160,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 3.33e-07,
+          "global_minimizers_of_fixed_cardinality": 160
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 159,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 3.292e-06,
+          "global_minimizers_of_fixed_cardinality": 1120
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 12561,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 0.000178459,
+          "global_minimizers_of_fixed_cardinality": 8800
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 657359,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.00917288,
+          "global_minimizers_of_fixed_cardinality": 2520
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 25637001,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.363597,
+          "global_minimizers_of_fixed_cardinality": 320
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "10"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        11
+      ],
+      "vertices": 176,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 176
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 175,
+          "minimum_weight": 10,
+          "anchored_minimizers": 14,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 3.5e-06,
+          "global_minimizers_of_fixed_cardinality": 1232
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 15225,
+          "minimum_weight": 13,
+          "anchored_minimizers": 165,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 0.000217041,
+          "global_minimizers_of_fixed_cardinality": 9680
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 877975,
+          "minimum_weight": 12,
+          "anchored_minimizers": 63,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.0123082,
+          "global_minimizers_of_fixed_cardinality": 2772
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 37752925,
+          "minimum_weight": 11,
+          "anchored_minimizers": 10,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.53238,
+          "global_minimizers_of_fixed_cardinality": 352
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "5",
+        "4",
+        "4",
+        "11"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3
+      ],
+      "vertices": 9,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 9
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 8,
+          "minimum_weight": 6,
+          "anchored_minimizers": 8,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 7.09e-07,
+          "global_minimizers_of_fixed_cardinality": 36
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 28,
+          "minimum_weight": 3,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 1.166e-06,
+          "global_minimizers_of_fixed_cardinality": 6
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4
+      ],
+      "vertices": 12,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 1.66e-07,
+          "global_minimizers_of_fixed_cardinality": 12
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 11,
+          "minimum_weight": 6,
+          "anchored_minimizers": 7,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 7.08e-07,
+          "global_minimizers_of_fixed_cardinality": 42
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 55,
+          "minimum_weight": 7,
+          "anchored_minimizers": 36,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 1.667e-06,
+          "global_minimizers_of_fixed_cardinality": 144
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 165,
+          "minimum_weight": 4,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 3.958e-06,
+          "global_minimizers_of_fixed_cardinality": 18
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "4",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4
+      ],
+      "vertices": 16,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.09e-07,
+          "global_minimizers_of_fixed_cardinality": 16
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 15,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 8.75e-07,
+          "global_minimizers_of_fixed_cardinality": 48
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 105,
+          "minimum_weight": 7,
+          "anchored_minimizers": 21,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 2.666e-06,
+          "global_minimizers_of_fixed_cardinality": 112
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 455,
+          "minimum_weight": 4,
+          "anchored_minimizers": 7,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 8.25e-06,
+          "global_minimizers_of_fixed_cardinality": 28
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        3
+      ],
+      "vertices": 27,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 27
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 26,
+          "minimum_weight": 10,
+          "anchored_minimizers": 18,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.042e-06,
+          "global_minimizers_of_fixed_cardinality": 243
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 325,
+          "minimum_weight": 9,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 5.708e-06,
+          "global_minimizers_of_fixed_cardinality": 54
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 2600,
+          "minimum_weight": 10,
+          "anchored_minimizers": 32,
+          "witness": [
+            0,
+            1,
+            3,
+            9
+          ],
+          "seconds": 3.5709e-05,
+          "global_minimizers_of_fixed_cardinality": 216
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 14950,
+          "minimum_weight": 11,
+          "anchored_minimizers": 670,
+          "witness": [
+            0,
+            1,
+            2,
+            3,
+            9
+          ],
+          "seconds": 0.0002275,
+          "global_minimizers_of_fixed_cardinality": 3618
+        },
+        {
+          "r": 6,
+          "anchored_subsets": 65780,
+          "minimum_weight": 6,
+          "anchored_minimizers": 26,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11,
+            20
+          ],
+          "seconds": 0.000972,
+          "global_minimizers_of_fixed_cardinality": 117
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "6",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        3,
+        4
+      ],
+      "vertices": 36,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 36
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 35,
+          "minimum_weight": 10,
+          "anchored_minimizers": 17,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.333e-06,
+          "global_minimizers_of_fixed_cardinality": 306
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 595,
+          "minimum_weight": 9,
+          "anchored_minimizers": 2,
+          "witness": [
+            0,
+            4,
+            8
+          ],
+          "seconds": 8.25e-06,
+          "global_minimizers_of_fixed_cardinality": 24
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 6545,
+          "minimum_weight": 12,
+          "anchored_minimizers": 216,
+          "witness": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "seconds": 8.925e-05,
+          "global_minimizers_of_fixed_cardinality": 1944
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 52360,
+          "minimum_weight": 11,
+          "anchored_minimizers": 80,
+          "witness": [
+            0,
+            1,
+            3,
+            9,
+            27
+          ],
+          "seconds": 0.000699792,
+          "global_minimizers_of_fixed_cardinality": 576
+        },
+        {
+          "r": 6,
+          "anchored_subsets": 324632,
+          "minimum_weight": 6,
+          "anchored_minimizers": 8,
+          "witness": [
+            0,
+            1,
+            5,
+            8,
+            11,
+            29
+          ],
+          "seconds": 0.00447608,
+          "global_minimizers_of_fixed_cardinality": 48
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "6",
+        "3",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "lengths": [
+        3,
+        4,
+        4
+      ],
+      "vertices": 48,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.5e-07,
+          "global_minimizers_of_fixed_cardinality": 48
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 47,
+          "minimum_weight": 10,
+          "anchored_minimizers": 16,
+          "witness": [
+            0,
+            1
+          ],
+          "seconds": 1.375e-06,
+          "global_minimizers_of_fixed_cardinality": 384
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 1081,
+          "minimum_weight": 13,
+          "anchored_minimizers": 237,
+          "witness": [
+            0,
+            1,
+            3
+          ],
+          "seconds": 1.9e-05,
+          "global_minimizers_of_fixed_cardinality": 3792
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 16215,
+          "minimum_weight": 12,
+          "anchored_minimizers": 99,
+          "witness": [
+            0,
+            1,
+            5,
+            11
+          ],
+          "seconds": 0.00020375,
+          "global_minimizers_of_fixed_cardinality": 1188
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 178365,
+          "minimum_weight": 11,
+          "anchored_minimizers": 30,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14
+          ],
+          "seconds": 0.00228838,
+          "global_minimizers_of_fixed_cardinality": 288
+        },
+        {
+          "r": 6,
+          "anchored_subsets": 1533939,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            1,
+            5,
+            11,
+            14,
+            38
+          ],
+          "seconds": 0.0202607,
+          "global_minimizers_of_fixed_cardinality": 48
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "6",
+        "3",
+        "4",
+        "4"
+      ]
+    },
+    {
+      "lengths": [
+        4,
+        4,
+        4
+      ],
+      "vertices": 64,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 2.92e-07,
+          "global_minimizers_of_fixed_cardinality": 64
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 63,
+          "minimum_weight": 10,
+          "anchored_minimizers": 15,
+          "witness": [
+            0,
+            2
+          ],
+          "seconds": 1.584e-06,
+          "global_minimizers_of_fixed_cardinality": 480
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 1953,
+          "minimum_weight": 13,
+          "anchored_minimizers": 195,
+          "witness": [
+            0,
+            2,
+            5
+          ],
+          "seconds": 2.8917e-05,
+          "global_minimizers_of_fixed_cardinality": 4160
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 39711,
+          "minimum_weight": 12,
+          "anchored_minimizers": 105,
+          "witness": [
+            0,
+            2,
+            5,
+            13
+          ],
+          "seconds": 0.0004825,
+          "global_minimizers_of_fixed_cardinality": 1680
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 595665,
+          "minimum_weight": 11,
+          "anchored_minimizers": 30,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17
+          ],
+          "seconds": 0.00736454,
+          "global_minimizers_of_fixed_cardinality": 384
+        },
+        {
+          "r": 6,
+          "anchored_subsets": 7028847,
+          "minimum_weight": 6,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            2,
+            5,
+            13,
+            17,
+            49
+          ],
+          "seconds": 0.0887028,
+          "global_minimizers_of_fixed_cardinality": 64
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "6",
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    {
+      "lengths": [
+        5,
+        5,
+        5
+      ],
+      "vertices": 125,
+      "rows": [
+        {
+          "r": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "witness": [
+            0
+          ],
+          "seconds": 4.1e-08,
+          "global_minimizers_of_fixed_cardinality": 125
+        },
+        {
+          "r": 2,
+          "anchored_subsets": 124,
+          "minimum_weight": 10,
+          "anchored_minimizers": 12,
+          "witness": [
+            0,
+            6
+          ],
+          "seconds": 2.458e-06,
+          "global_minimizers_of_fixed_cardinality": 750
+        },
+        {
+          "r": 3,
+          "anchored_subsets": 7626,
+          "minimum_weight": 13,
+          "anchored_minimizers": 114,
+          "witness": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 0.000101458,
+          "global_minimizers_of_fixed_cardinality": 4750
+        },
+        {
+          "r": 4,
+          "anchored_subsets": 310124,
+          "minimum_weight": 14,
+          "anchored_minimizers": 48,
+          "witness": [
+            0,
+            2,
+            6,
+            26
+          ],
+          "seconds": 0.00389883,
+          "global_minimizers_of_fixed_cardinality": 1500
+        },
+        {
+          "r": 5,
+          "anchored_subsets": 9381251,
+          "minimum_weight": 15,
+          "anchored_minimizers": 36,
+          "witness": [
+            0,
+            2,
+            6,
+            21,
+            26
+          ],
+          "seconds": 0.119928,
+          "global_minimizers_of_fixed_cardinality": 900
+        },
+        {
+          "r": 6,
+          "anchored_subsets": 225150024,
+          "minimum_weight": 12,
+          "anchored_minimizers": 6,
+          "witness": [
+            0,
+            2,
+            6,
+            21,
+            26,
+            101
+          ],
+          "seconds": 2.92894,
+          "global_minimizers_of_fixed_cardinality": 125
+        },
+        {
+          "r": 7,
+          "anchored_subsets": 4465475476,
+          "minimum_weight": 13,
+          "anchored_minimizers": 7,
+          "witness": [
+            0,
+            1,
+            2,
+            6,
+            21,
+            26,
+            101
+          ],
+          "seconds": 101.086,
+          "global_minimizers_of_fixed_cardinality": 125
+        }
+      ],
+      "command": [
+        "/private/tmp/enumerate_tori",
+        "7",
+        "5",
+        "5",
+        "5"
+      ]
+    }
+  ],
+  "total_anchored_subsets": 4857170093,
+  "seconds": 107.06970445904881,
+  "source_sha256": "fd6ddb0c6225811cd0c142d2a3446641156388c43269dd765b19b22017bf1e1d",
+  "binary_sha256": "02a18bad9eca7fe8f49c5ab4d85643fc5f766f83b0368c52f04c9a1a250b276e",
+  "scope": "Independent exact recheck of finite enumeration, counts and witnesses. Infinite conclusions additionally require the cited proof reductions."
+}

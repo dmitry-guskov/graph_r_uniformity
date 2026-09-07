@@ -1,0 +1,440 @@
+{
+  "date": "2026-09-06",
+  "definition": "W(S)=popcount(x OR (A*x mod 2)); x is indicator of generator subset S",
+  "implementation": "Exact unsigned bit operations; all anchored subsets containing vertex 0, without connectivity restrictions",
+  "completeness_argument": "Translations act transitively on vertices and preserve cardinality and weight. Every nonempty subset translates to an anchored one. All counts checked against binomial(N-1,r-1).",
+  "indexing": "vertex=sum_i coordinate_i*product_{j<i} L_j, zero-based",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.6.3.2)\nTarget: arm64-apple-darwin25.3.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "compile_command": "clang++ -O3 -std=c++17 /private/tmp/graph-research-proof/torus_uniformity_probe.cpp -o /private/tmp/graph-research-proof/torus_uniformity_probe",
+  "run_command": "/private/tmp/graph-research-proof/torus_uniformity_probe > /private/tmp/graph-research-proof/enumeration.log",
+  "timing_note": "Per-cardinality steady_clock timings in raw log; summed below. They exclude compilation and some graph setup, not end-to-end wall time. Rounded to default C++ stream precision.",
+  "source_sha256": "5df7c1c90ff99613dce0a44476569b741680331c638198f825f10706339468a3",
+  "raw_log_sha256": "ad7825ea2f547827d15daa9efbc839ce5e466888854fda455a4222e2b7678b1c",
+  "graphs": [
+    {
+      "side_lengths": [
+        5
+      ],
+      "vertices": 5,
+      "rows": [
+        {
+          "generator_subset_size": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 3,
+          "anchored_minimizers": 1,
+          "global_minimizers_of_fixed_cardinality": 5,
+          "witness_vertex_indices": [
+            0
+          ],
+          "seconds": 3.875e-06
+        },
+        {
+          "generator_subset_size": 2,
+          "anchored_subsets": 4,
+          "minimum_weight": 4,
+          "anchored_minimizers": 4,
+          "global_minimizers_of_fixed_cardinality": 10,
+          "witness_vertex_indices": [
+            0,
+            1
+          ],
+          "seconds": 5.291e-06
+        }
+      ],
+      "total_anchored_subsets": 5,
+      "total_enumeration_seconds": 9.166e-06,
+      "cardinality_limit": 2,
+      "scope": "Full certificate excluding weights <= 2D, since |S| <= W(S)"
+    },
+    {
+      "side_lengths": [
+        5,
+        5
+      ],
+      "vertices": 25,
+      "rows": [
+        {
+          "generator_subset_size": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "global_minimizers_of_fixed_cardinality": 25,
+          "witness_vertex_indices": [
+            0
+          ],
+          "seconds": 2.667e-06
+        },
+        {
+          "generator_subset_size": 2,
+          "anchored_subsets": 24,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "global_minimizers_of_fixed_cardinality": 50,
+          "witness_vertex_indices": [
+            0,
+            6
+          ],
+          "seconds": 4.542e-06
+        },
+        {
+          "generator_subset_size": 3,
+          "anchored_subsets": 276,
+          "minimum_weight": 7,
+          "anchored_minimizers": 6,
+          "global_minimizers_of_fixed_cardinality": 50,
+          "witness_vertex_indices": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 1.6084e-05
+        },
+        {
+          "generator_subset_size": 4,
+          "anchored_subsets": 2024,
+          "minimum_weight": 8,
+          "anchored_minimizers": 28,
+          "global_minimizers_of_fixed_cardinality": 175,
+          "witness_vertex_indices": [
+            0,
+            1,
+            7,
+            9
+          ],
+          "seconds": 8.3708e-05
+        },
+        {
+          "generator_subset_size": 5,
+          "anchored_subsets": 10626,
+          "minimum_weight": 5,
+          "anchored_minimizers": 2,
+          "global_minimizers_of_fixed_cardinality": 10,
+          "witness_vertex_indices": [
+            0,
+            6,
+            12,
+            18,
+            24
+          ],
+          "seconds": 0.000462417
+        }
+      ],
+      "total_anchored_subsets": 12951,
+      "total_enumeration_seconds": 0.000569418,
+      "cardinality_limit": 5,
+      "scope": "Full distance and minimum-multiplicity certificate: all |S| <= 5; larger subsets cannot have W <= 5"
+    },
+    {
+      "side_lengths": [
+        5,
+        6
+      ],
+      "vertices": 30,
+      "rows": [
+        {
+          "generator_subset_size": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "global_minimizers_of_fixed_cardinality": 30,
+          "witness_vertex_indices": [
+            0
+          ],
+          "seconds": 2.666e-06
+        },
+        {
+          "generator_subset_size": 2,
+          "anchored_subsets": 29,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "global_minimizers_of_fixed_cardinality": 60,
+          "witness_vertex_indices": [
+            0,
+            6
+          ],
+          "seconds": 4.708e-06
+        },
+        {
+          "generator_subset_size": 3,
+          "anchored_subsets": 406,
+          "minimum_weight": 7,
+          "anchored_minimizers": 6,
+          "global_minimizers_of_fixed_cardinality": 60,
+          "witness_vertex_indices": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 1.9708e-05
+        },
+        {
+          "generator_subset_size": 4,
+          "anchored_subsets": 3654,
+          "minimum_weight": 8,
+          "anchored_minimizers": 24,
+          "global_minimizers_of_fixed_cardinality": 180,
+          "witness_vertex_indices": [
+            0,
+            1,
+            7,
+            9
+          ],
+          "seconds": 0.000264584
+        }
+      ],
+      "total_anchored_subsets": 4090,
+      "total_enumeration_seconds": 0.000291666,
+      "cardinality_limit": 4,
+      "scope": "Full certificate excluding weights <= 2D, since |S| <= W(S)"
+    },
+    {
+      "side_lengths": [
+        5,
+        7
+      ],
+      "vertices": 35,
+      "rows": [
+        {
+          "generator_subset_size": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 5,
+          "anchored_minimizers": 1,
+          "global_minimizers_of_fixed_cardinality": 35,
+          "witness_vertex_indices": [
+            0
+          ],
+          "seconds": 2.584e-06
+        },
+        {
+          "generator_subset_size": 2,
+          "anchored_subsets": 34,
+          "minimum_weight": 6,
+          "anchored_minimizers": 4,
+          "global_minimizers_of_fixed_cardinality": 70,
+          "witness_vertex_indices": [
+            0,
+            6
+          ],
+          "seconds": 8.458e-06
+        },
+        {
+          "generator_subset_size": 3,
+          "anchored_subsets": 561,
+          "minimum_weight": 7,
+          "anchored_minimizers": 6,
+          "global_minimizers_of_fixed_cardinality": 70,
+          "witness_vertex_indices": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 2.5e-05
+        },
+        {
+          "generator_subset_size": 4,
+          "anchored_subsets": 5984,
+          "minimum_weight": 8,
+          "anchored_minimizers": 20,
+          "global_minimizers_of_fixed_cardinality": 175,
+          "witness_vertex_indices": [
+            0,
+            1,
+            7,
+            9
+          ],
+          "seconds": 0.000513875
+        }
+      ],
+      "total_anchored_subsets": 6580,
+      "total_enumeration_seconds": 0.000549917,
+      "cardinality_limit": 4,
+      "scope": "Full certificate excluding weights <= 2D, since |S| <= W(S)"
+    },
+    {
+      "side_lengths": [
+        5,
+        5,
+        5
+      ],
+      "vertices": 125,
+      "rows": [
+        {
+          "generator_subset_size": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 7,
+          "anchored_minimizers": 1,
+          "global_minimizers_of_fixed_cardinality": 125,
+          "witness_vertex_indices": [
+            0
+          ],
+          "seconds": 2.958e-06
+        },
+        {
+          "generator_subset_size": 2,
+          "anchored_subsets": 124,
+          "minimum_weight": 10,
+          "anchored_minimizers": 12,
+          "global_minimizers_of_fixed_cardinality": 750,
+          "witness_vertex_indices": [
+            0,
+            6
+          ],
+          "seconds": 8.667e-06
+        },
+        {
+          "generator_subset_size": 3,
+          "anchored_subsets": 7626,
+          "minimum_weight": 13,
+          "anchored_minimizers": 114,
+          "global_minimizers_of_fixed_cardinality": 4750,
+          "witness_vertex_indices": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 0.000283958
+        },
+        {
+          "generator_subset_size": 4,
+          "anchored_subsets": 310124,
+          "minimum_weight": 14,
+          "anchored_minimizers": 48,
+          "global_minimizers_of_fixed_cardinality": 1500,
+          "witness_vertex_indices": [
+            0,
+            2,
+            6,
+            26
+          ],
+          "seconds": 0.00544954
+        },
+        {
+          "generator_subset_size": 5,
+          "anchored_subsets": 9381251,
+          "minimum_weight": 15,
+          "anchored_minimizers": 36,
+          "global_minimizers_of_fixed_cardinality": 900,
+          "witness_vertex_indices": [
+            0,
+            2,
+            6,
+            21,
+            26
+          ],
+          "seconds": 0.128311
+        },
+        {
+          "generator_subset_size": 6,
+          "anchored_subsets": 225150024,
+          "minimum_weight": 12,
+          "anchored_minimizers": 6,
+          "global_minimizers_of_fixed_cardinality": 125,
+          "witness_vertex_indices": [
+            0,
+            2,
+            6,
+            21,
+            26,
+            101
+          ],
+          "seconds": 3.73504
+        },
+        {
+          "generator_subset_size": 7,
+          "anchored_subsets": 4465475476,
+          "minimum_weight": 13,
+          "anchored_minimizers": 7,
+          "global_minimizers_of_fixed_cardinality": 125,
+          "witness_vertex_indices": [
+            0,
+            1,
+            2,
+            6,
+            21,
+            26,
+            101
+          ],
+          "seconds": 70.8537
+        }
+      ],
+      "total_anchored_subsets": 4700324626,
+      "total_enumeration_seconds": 74.72279612300001,
+      "cardinality_limit": 7,
+      "scope": "Full distance and minimum-multiplicity certificate: all |S| <= 7; larger subsets cannot have W <= 7"
+    },
+    {
+      "side_lengths": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "vertices": 625,
+      "rows": [
+        {
+          "generator_subset_size": 1,
+          "anchored_subsets": 1,
+          "minimum_weight": 9,
+          "anchored_minimizers": 1,
+          "global_minimizers_of_fixed_cardinality": 625,
+          "witness_vertex_indices": [
+            0
+          ],
+          "seconds": 1.583e-06
+        },
+        {
+          "generator_subset_size": 2,
+          "anchored_subsets": 624,
+          "minimum_weight": 14,
+          "anchored_minimizers": 24,
+          "global_minimizers_of_fixed_cardinality": 7500,
+          "witness_vertex_indices": [
+            0,
+            6
+          ],
+          "seconds": 1.4917e-05
+        },
+        {
+          "generator_subset_size": 3,
+          "anchored_subsets": 194376,
+          "minimum_weight": 19,
+          "anchored_minimizers": 564,
+          "global_minimizers_of_fixed_cardinality": 117500,
+          "witness_vertex_indices": [
+            0,
+            6,
+            12
+          ],
+          "seconds": 0.00347804
+        },
+        {
+          "generator_subset_size": 4,
+          "anchored_subsets": 40300624,
+          "minimum_weight": 20,
+          "anchored_minimizers": 112,
+          "global_minimizers_of_fixed_cardinality": 17500,
+          "witness_vertex_indices": [
+            0,
+            6,
+            26,
+            126
+          ],
+          "seconds": 0.886853
+        }
+      ],
+      "total_anchored_subsets": 40495625,
+      "total_enumeration_seconds": 0.89034754,
+      "cardinality_limit": 4,
+      "scope": "Partial stress test only"
+    }
+  ],
+  "total_anchored_subsets": 4740843877,
+  "total_enumeration_seconds": 75.61456383000001,
+  "limits": [
+    "C++ Bits capacity fixed at 640 vertices; supplied workloads have at most 625.",
+    "C5^4 cardinalities 5 through 9 were not enumerated.",
+    "The general theorem is established by the accompanying proof candidate, not finite extrapolation.",
+    "LaTeX compiler unavailable in current PATH; .tex not compiled."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "records": [
+    {
+      "r": 1,
+      "checked": 1,
+      "minimum": 5,
+      "anchored_minimizers": 1,
+      "global_fixed_r_minimizers": 25
+    },
+    {
+      "r": 2,
+      "checked": 24,
+      "minimum": 6,
+      "anchored_minimizers": 4,
+      "global_fixed_r_minimizers": 50
+    },
+    {
+      "r": 3,
+      "checked": 276,
+      "minimum": 7,
+      "anchored_minimizers": 6,
+      "global_fixed_r_minimizers": 50
+    },
+    {
+      "r": 4,
+      "checked": 2024,
+      "minimum": 8,
+      "anchored_minimizers": 28,
+      "global_fixed_r_minimizers": 175
+    },
+    {
+      "r": 5,
+      "checked": 10626,
+      "minimum": 5,
+      "anchored_minimizers": 2,
+      "global_fixed_r_minimizers": 10
+    }
+  ],
+  "total_anchored_subsets": 12951,
+  "permutations_checked": 120,
+  "exceptional_permutations": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      4,
+      3,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      4,
+      3,
+      2
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      4,
+      3
+    ],
+    [
+      2,
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      3,
+      2,
+      1,
+      0,
+      4
+    ],
+    [
+      3,
+      4,
+      0,
+      1,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ]
+  ],
+  "minimum_multiplicity": 35,
+  "seconds": 0.014535083901137114
+}

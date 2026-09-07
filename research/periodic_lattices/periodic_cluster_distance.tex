@@ -1,0 +1,128 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\Odd}{\operatorname{Odd}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\wt}{\operatorname{wt}}
+\newcommand{\F}{\mathbb F_2}
+\title{Minimum stabilizer weight of periodic products of cycles}
+\author{Working proof for independent audit}
+\date{6 September 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Status.} This draft gives an analytic mixed-side classification, using the cited Hamming-graph code theorem for one base family. For dimension at least three, one side of length at least five suffices for full distance and singleton-only minima. All new finite checks are independent corroboration rather than proof dependencies. Publication novelty has not been established; the equal-side two-dimensional distance-five family is already in Ref.~\cite{kovalev2011}.
+
+Let $G=\mathop{\square}_{i=1}^D C_{L_i}$, with vertex set $V=\prod_i\mathbb Z/L_i\mathbb Z$, and adjacency matrix $A$ over $\F$. The canonical graph-state generators are $K_v=X_v\prod_{u\sim v}Z_u$. For a nonempty generator subset $S$, the product $K_S=\prod_{v\in S}K_v$ has binary Pauli coordinates $(x,Ax)$, where $x=1_S$. Consequently
+\begin{equation}\label{eq:weight}
+ W(S):=\wt(K_S)=|\supp(x)\cup\supp(Ax)|=|S\cup\Odd(S)|\ge |S|.
+\end{equation}
+Here $\Odd(S)$ contains vertices with an odd number of neighbors in $S$; vertices of $S$ remain in the support even when their $Z$ coordinates cancel.
+
+\begin{theorem}\label{thm:main}
+If $D\ge1$ and every $L_i\ge5$, then $\min_{\varnothing\ne S\subseteq V}W(S)=2D+1$. The graph state is exactly $2D$-uniform. The bound applies to unequal side lengths.
+\end{theorem}
+
+\begin{lemma}[Two omitted consecutive slices]\label{lem:gaps}
+Suppose that, in each coordinate, the projection of a nonempty $S$ omits two consecutive cycle positions. Then $W(S)\ge |S|+2D$.
+\end{lemma}
+\begin{proof}
+Relabel each coordinate so that positions $L_i-2,L_i-1$ are omitted. Thus $S$ lies in the integer box $\prod_i[0,L_i-3]$. For each $i$ choose $v_i^+,v_i^-\in S$ whose $i$th coordinates are respectively maximal and minimal, and set $q_i^+=v_i^++e_i$, $q_i^-=v_i^--e_i$, interpreted cyclically. Each $q_i^\pm$ is outside $S$ and has exactly one neighbor in $S$, namely $v_i^\pm$. Indeed, all neighbors obtained in another coordinate retain an $i$th coordinate outside the projection of $S$. The second neighbor in coordinate $i$ is beyond the corresponding extremum, or, on wrapping around the cycle, in one of the two omitted slices.
+
+These $2D$ witnesses are distinct. The positive and negative witnesses in the same coordinate have different $i$th coordinates: if the extrema are $a\ge b$, their coincidence would require $a-b+2$ to be a multiple of $L_i$, whereas $2\le a-b+2\le L_i-1$. For $i\ne j$, witness $q_i^\pm$ has its $i$th coordinate outside the projection of $S$, while $q_j^\pm$ inherits that coordinate from a vertex of $S$. Therefore all witnesses lie in $\Odd(S)\setminus S$, proving the claim. This argument does not require $S$ to be connected.
+\end{proof}
+
+\begin{lemma}[Slice inequality]\label{lem:slices}
+Write $G=H\square C_L$, and suppose every nonzero $y\in\F^{V(H)}$ satisfies $|\supp y\cup\supp(A_Hy)|\ge d_H$. For $x=1_S$, write $x_t$ for slice $t$, $r_t=|\supp x_t|$, $P=\{t:r_t>0\}$, and $k=|P|$. Then
+\begin{equation}\label{eq:slices}
+ W(S)\ge k d_H-\sum_{u\in P}\deg_{C_L[P]}(u)r_u.
+\end{equation}
+\end{lemma}
+\begin{proof}
+The $Z$ coordinate in slice $t$ is $A_Hx_t+x_{t-1}+x_{t+1}$. For any binary vectors $a,b,c$, perturbing $b$ to $b+c$ can remove at most $|\supp c|$ elements from $\supp a\cup\supp b$. For occupied $t$, therefore,
+\[
+ w_t:=|\supp x_t\cup\supp(A_Hx_t+x_{t-1}+x_{t+1})|
+ \ge d_H-r_{t-1}-r_{t+1}.
+\]
+Sum over occupied $t$ and discard the nonnegative contributions of empty slices. Reindexing the subtracted terms gives~\eqref{eq:slices}. Cancellations may overlap or be counted more than once; this only weakens this lower bound and does not presume disjoint cancellation sites.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+A singleton $S$ has weight $2D+1$, so it suffices to rule out $W(S)\le2D$. Induct on $D$.
+
+For $D=1$, a putative $W(S)\le2$ implies $1\le|S|\le2$. On $C_L$ with $L\ge5$ there are at least three empty positions. If no two empty positions were consecutive, the successor of every empty position would be occupied; the successor map is injective, so there would be at least as many occupied as empty positions. This contradicts $|S|\le2$. Lemma~\ref{lem:gaps} now gives $W(S)\ge|S|+2\ge3$.
+
+For $D\ge2$, assume the theorem in dimension $D-1$ and let $r=|S|\le W(S)\le2D$. Fix any coordinate. Its slice graph $H$ satisfies $d_H=2D-1$ by induction. Let $P$ and $k$ be as in Lemma~\ref{lem:slices}.
+
+If $k\ge5$, every induced degree is at most two, whence
+\[
+ W(S)\ge k(2D-1)-2r\ge5(2D-1)-4D=6D-5>2D.
+\]
+If $k=4$, then $P$ is a proper subset of a cycle of length at least five. Its induced graph is a nonempty disjoint union of paths, including possible isolated vertices. Hence $\sum_{u\in P}(2-\deg_{C_L[P]}u)\ge2$. Since each $r_u\ge1$, its weighted counterpart is also at least two. Thus
+\[
+ W(S)\ge4(2D-1)-(2r-2)\ge4D-2>2D.
+\]
+Therefore every coordinate projection has at most three occupied positions.
+
+Suppose a coordinate projection has no two consecutive empty positions. Again the successor injection gives $L-k\le k$. Since $L\ge5$ and $k\le3$, this forces $k=3$ and $L\in\{5,6\}$. For $L=5$ the two empty positions are nonadjacent, and the occupied induced graph consists of one edge and one isolated vertex. For $L=6$, occupied and empty positions alternate, so every occupied induced degree is zero. In either case the induced maximum degree is at most one. The slice inequality yields
+\[
+ W(S)\ge3(2D-1)-r\ge4D-3>2D.
+\]
+All inequalities are strict also in the smallest induction dimension $D=2$: the three respective lower bounds are $7,6,5$, each exceeding $4$.
+
+Consequently every coordinate has two consecutive empty slices, and Lemma~\ref{lem:gaps} gives $W(S)\ge r+2D\ge2D+1$, a contradiction. Finally, a graph-state reduced density matrix is maximally mixed on every set of at most $t$ qubits exactly when no nonidentity stabilizer has weight at most $t$, giving the uniformity statement.
+\end{proof}
+
+\begin{corollary}[Minimum-weight multiplicity]\label{cor:unique}
+For $D\ge3$ and all $L_i\ge5$, the only stabilizer elements of weight $2D+1$ are the $N=\prod_i L_i$ individual canonical generators. In particular the minimum-weight stabilizer multiplicity is exactly $N$.
+\end{corollary}
+\begin{proof}
+Use the established theorem for the slice graphs and assume $W(S)\le2D+1$, so $r\le2D+1$. The preceding three projection bounds become respectively
+\[
+\begin{aligned}
+ k\ge5 &:\quad W(S)\ge6D-7,\\
+ k=4 &:\quad W(S)\ge4D-4,\\
+ k\le3\text{ with no adjacent empties} &:\quad W(S)\ge4D-4.
+\end{aligned}
+\]
+For $D\ge3$ all exceed $2D+1$ (at $D=3$ they are $11,8,8$, compared with $7$). Thus Lemma~\ref{lem:gaps} applies and $r+2D\le W(S)\le2D+1$, forcing $r=1$. Distinct generator subsets specify distinct stabilizer elements, so precisely $N$ elements attain this weight.
+\end{proof}
+
+\noindent\textbf{Why the dimension restriction matters.}
+On $C_5\square C_5$, let $S=\{(t,t):t\in\mathbb Z/5\mathbb Z\}$. Every vertex has either zero or two neighbors in $S$, so $\Odd(S)=\varnothing$ and $W(S)=5$, although $|S|=5$. The two diagonal slopes and their five translates supply ten such stabilizers. The exhaustive calculation below confirms that these and the 25 individual generators are all the weight-five elements.
+
+\begin{corollary}[Sharp universal common-side threshold]
+The number five cannot be replaced by four in Theorem~\ref{thm:main}.
+\end{corollary}
+\begin{proof}
+On $C_4^{\square D}$ write $A=\sum_i(T_i+T_i^{-1})$ for the coordinate shifts over $\F$. These commute and $T_i^4=I$, so
+\[
+ A^2=\sum_i(T_i^2+T_i^{-2})=0.
+\]
+For $x=Ae_0$, the support consists of the $2D$ distinct neighbors of the origin, while $Ax=0$. Thus $W(\supp x)=2D$. This proves sharpness of a universal lower threshold for all side lengths; it does not classify tori with some side lengths four and others larger.
+\end{proof}
+
+\noindent\textbf{Reproducible finite checks.}
+The accompanying C++ program computes $|x\lor Ax|$ by exact bit operations for every generator subset of each stated cardinality containing the origin. Translation transitivity implies that a minimum of any fixed cardinality occurs among these anchored subsets. Every subset of weight at most $b$ has cardinality at most $b$ by~\eqref{eq:weight}; there is no connectivity restriction. The number of enumerated anchored subsets must equal $\binom{N-1}{r-1}$. The raw log and structured JSON retain these counts, witnesses, minimizer counts, timings, compiler identity, and commands. For a vertex-transitive graph, an anchored minimizer count $a_r$ corresponds to $Na_r/r$ global minimizers, by counting incidences between minimizing subsets and their vertices.
+
+For $C_5^3$ all $4{,}700{,}324{,}626$ anchored subsets of cardinalities one through seven were checked; the minimum weights by cardinality are $7,10,13,14,15,12,13$. This exhaustively verifies both distance seven and the 125-element minimum multiplicity in this instance. For $C_5^2$, cardinalities one through five have minima $5,6,7,8,5$, with one and two anchored minimizers in cardinalities one and five, respectively, giving 35 global weight-five elements. Checks for $C_5\square C_6$ and $C_5\square C_7$ exhaust cardinalities up to four. The $C_5^4$ check exhausts only cardinalities up to four and therefore is a partial stress test, not a finite certification of its distance nine.
+
+\noindent\textbf{Literature position and unresolved priority.}
+Sudevan et al.~\cite{sudevan2023}, Sec.~II.B and Appendix~C, prove the periodic cluster-state result for linear size at least eight and explicitly conjecture the threshold five from low-dimensional evidence. The October 2025 version of the subsequent code paper~\cite{sudevan2025}, Proposition~2 and Corollary~1, retains the side-length-at-least-eight hypothesis. The proof above, if independently accepted, resolves the cited arbitrary-dimensional threshold-five conjecture. The two-dimensional rectangular distance-five case and a diagonal minimum on the five-by-five torus already appear in Ref.~\cite{sudevan2022}. This is a mathematical comparison, not a confirmed novelty claim. In particular the 2019 abstract~\cite{lennen2019} explicitly mentions studying Cartesian products of diagonal distance without stating a usable theorem. The associated full result was not located in the bounded search; it remains a priority-check lead.
+
+\input{mixed_side_extension.tex}
+
+\begin{thebibliography}{9}
+\bibitem{sudevan2023} S. Sudevan, D. Azses, E. G. Dalla Torre, E. Sela, and S. Das, \emph{Multipartite entanglement and quantum error identification in $D$-dimensional cluster states}, Phys. Rev. A \textbf{108}, 022426 (2023). \url{https://doi.org/10.1103/PhysRevA.108.022426}; \url{https://arxiv.org/abs/2303.15508}.
+\bibitem{sudevan2025} S. Sudevan, S. Das, T. Aswanth, N. Patanker, and N. Kashyap, \emph{Codeword Stabilized Codes from $m$-Uniform Graph States}, arXiv:2405.06142v4 (9 October 2025). \url{https://arxiv.org/abs/2405.06142v4}; \url{https://doi.org/10.1109/JSAIT.2025.3602744}.
+\bibitem{lennen2019} E. Lennen, W. Bloomquist, J. Zavala, G. Bobokalonova, and R. Embar, \emph{Combinatorial Properties of Diagonal Distance}, Joint Mathematics Meetings, 16 January 2019, abstract 1145-94-1163, received 19 September 2018. \url{https://jointmathematicsmeetings.org/amsmtgs/2217_abstracts/1145-94-1163.pdf}.
+\bibitem{kovalev2011} A. A. Kovalev, I. Dumer, and L. P. Pryadko, \emph{Design of additive quantum codes via the codeword-stabilized framework}, Phys. Rev. A \textbf{84}, 062319 (2011). \url{https://link.aps.org/accepted/10.1103/PhysRevA.84.062319}.
+\bibitem{fishhamming} W. Fish, J. D. Key, and E. Mwambene, \emph{Codes, designs and groups from the Hamming graphs}, J. Combin. Inform. System Sci. \textbf{34}, 169--182 (2009), Theorem 1 and Propositions 1--2. Author-uploaded full text: \url{https://www.researchgate.net/publication/268301204}.
+\bibitem{fishlcd} W. Fish, J. D. Key, and E. Mwambene, \emph{Special LCD codes from products of graphs}, Appl. Algebra Engrg. Comm. Comput. \textbf{34}, 553--579 (2023). \url{https://www.math.clemson.edu/~keyj/Key/FKM16JRev.pdf}.
+\bibitem{fishcycles} W. Fish, \emph{Binary codes and permutation decoding sets from the graph products of cycles}, Appl. Algebra Engrg. Comm. Comput. \textbf{28}, 369--386 (2017). \url{https://doi.org/10.1007/s00200-016-0310-y}. Full text not inspected in this audit.
+\bibitem{sudevan2022} S. Sudevan and S. Das, \emph{$n$-qubit states with maximum entanglement across all bipartitions: A graph state approach}, arXiv:2201.05622v1 (14 January 2022), Fig. 5. \url{https://arxiv.org/abs/2201.05622}.
+\end{thebibliography}
+\end{document}
